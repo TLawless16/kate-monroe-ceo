@@ -21,7 +21,7 @@ export function FilmAndMediaSection() {
                             <Image src="/hales-promo.jpeg" alt="The Hales" fill className="object-contain" />
                             <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-black/50 to-transparent opacity-80 z-10" />
                         </div>
-                        <div className="p-8 relative z-20 -mt-20">
+                        <div className="p-8 relative z-20">
                             <h3 className="text-2xl font-heading font-bold text-white uppercase tracking-wider mb-2">The Hales</h3>
                             <p className="text-sm text-primary font-heading tracking-widest uppercase mb-4">Feature-Quality Vertical Drama</p>
                             <p className="text-gray-400 text-sm font-sans font-light leading-relaxed line-clamp-4">
@@ -33,10 +33,10 @@ export function FilmAndMediaSection() {
                     {/* The Bodyman */}
                     <div className="group relative bg-[#0a0a0a] border border-white/5 overflow-hidden transition-all duration-500 hover:border-primary/50">
                         <div className="aspect-[3/4] bg-[#111] relative">
-                            <Image src="/black-hat.png" alt="The Bodyman placeholder" fill className="object-contain" />
+                            <Image src="/the-body-man.jpeg" alt="The Bodyman" fill className="object-contain" />
                             <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-black/50 to-transparent opacity-80 z-10" />
                         </div>
-                        <div className="p-8 relative z-20 -mt-20">
+                        <div className="p-8 relative z-20">
                             <h3 className="text-2xl font-heading font-bold text-white uppercase tracking-wider mb-2">The Bodyman</h3>
                             <p className="text-sm text-primary font-heading tracking-widest uppercase mb-4">Political Thriller</p>
                             <p className="text-gray-400 text-sm font-sans font-light leading-relaxed line-clamp-4">
@@ -51,7 +51,7 @@ export function FilmAndMediaSection() {
                             <Image src="/modern-day-marilyn.jpeg" alt="Modern Day Marilyn" fill className="object-contain" />
                             <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-black/50 to-transparent opacity-80 z-10" />
                         </div>
-                        <div className="p-8 relative z-20 -mt-20">
+                        <div className="p-8 relative z-20">
                             <h3 className="text-2xl font-heading font-bold text-white uppercase tracking-wider mb-2">Modern Day Marilyn</h3>
                             <p className="text-sm text-primary font-heading tracking-widest uppercase mb-4">Cinematic Concept</p>
                             <p className="text-gray-400 text-sm font-sans font-light leading-relaxed line-clamp-4">
