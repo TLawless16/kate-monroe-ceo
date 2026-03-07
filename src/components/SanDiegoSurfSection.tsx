@@ -1,6 +1,10 @@
+"use client";
+
 import Image from "next/image";
+import { useState } from "react";
 
 export function SanDiegoSurfSection() {
+    const [isVideoModalOpen, setIsVideoModalOpen] = useState(false);
     return (
         <section className="py-24 bg-background relative overflow-hidden" id="surf">
             <div className="max-w-7xl mx-auto px-6">
@@ -24,9 +28,15 @@ export function SanDiegoSurfSection() {
                             </p>
                         </div>
 
-                        <div className="pt-6">
-                            <a href="https://sdsurfbasketball.com/" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-3 border border-primary text-primary font-heading uppercase tracking-widest text-sm transition-all hover:bg-primary hover:text-black font-bold">
-                                Get Tickets
+                        <div className="pt-6 flex flex-wrap gap-4">
+                            <button
+                                onClick={() => setIsVideoModalOpen(true)}
+                                className="inline-block px-8 py-3 border border-primary text-primary font-heading uppercase tracking-widest text-sm transition-all hover:bg-primary hover:text-black font-bold focus:outline-none"
+                            >
+                                Team Introduction
+                            </button>
+                            <a href="https://sdsurfbasketball.com/" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-3 border border-white text-white font-heading uppercase tracking-widest text-sm transition-all hover:bg-white hover:text-black font-bold">
+                                SD Surf Website
                             </a>
                         </div>
                     </div>
@@ -38,6 +48,27 @@ export function SanDiegoSurfSection() {
 
                 </div>
             </div>
+
+            {/* Local Video Modal */}
+            {isVideoModalOpen && (
+                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/95 px-4">
+                    <button
+                        onClick={() => setIsVideoModalOpen(false)}
+                        className="absolute top-8 right-8 text-white/70 hover:text-primary transition-colors focus:outline-none"
+                        aria-label="Close Video"
+                    >
+                        <svg className="w-10 h-10" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
+                    </button>
+                    <div className="relative w-full max-w-5xl aspect-video rounded overflow-hidden shadow-2xl border border-white/10 bg-black">
+                        <video
+                            src="/videos/team-intro.mp4"
+                            className="w-full h-full object-contain"
+                            controls
+                            autoPlay
+                        />
+                    </div>
+                </div>
+            )}
         </section>
     );
 }
