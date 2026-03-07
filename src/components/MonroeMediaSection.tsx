@@ -1,7 +1,15 @@
+import Image from "next/image";
+
 export function MonroeMediaSection() {
     return (
         <section className="py-32 bg-[#050505] relative overflow-hidden" id="media">
-            <div className="max-w-7xl mx-auto px-6 text-center space-y-12">
+
+            <div className="absolute inset-0 z-0">
+                <Image src="/blazer.png" alt="Monroe Media Kate Monroe" fill className="object-cover object-top opacity-20 grayscale" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-[#050505]/80 to-[#050505]" />
+            </div>
+
+            <div className="max-w-7xl mx-auto px-6 text-center space-y-12 relative z-10">
 
                 <div className="max-w-3xl mx-auto space-y-6">
                     <h2 className="text-5xl md:text-7xl font-heading font-black text-white tracking-tighter uppercase">

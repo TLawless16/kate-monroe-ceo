@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export function StudioMintSection() {
     return (
         <section className="py-24 bg-gradient-to-b from-[#0a0a0a] to-background relative overflow-hidden" id="studiomint">
@@ -6,10 +8,13 @@ export function StudioMintSection() {
 
                     <div className="relative aspect-square w-full max-w-md mx-auto lg:mx-0">
                         <div className="absolute inset-0 border border-primary/20 rounded-full flex items-center justify-center animate-spin-slow">
-                            {/* Decorative rings */}
                             <div className="w-[90%] h-[90%] border border-white/5 rounded-full"></div>
                         </div>
-                        <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
+                        <div className="absolute inset-4 rounded-full overflow-hidden z-0">
+                            <Image src="/pink-outfit.png" alt="Studio Mint Kate Monroe" fill className="object-cover object-top grayscale hover:grayscale-0 transition-all duration-700 hover:scale-105" />
+                            <div className="absolute inset-0 bg-black/40 z-10" />
+                        </div>
+                        <div className="absolute inset-0 flex flex-col items-center justify-center z-20 pointer-events-none">
                             <h3 className="text-4xl font-heading font-black text-white tracking-widest uppercase">Studio</h3>
                             <h3 className="text-5xl font-heading font-black text-primary tracking-widest uppercase">Mint</h3>
                         </div>

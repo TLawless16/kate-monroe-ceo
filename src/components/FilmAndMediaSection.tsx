@@ -18,9 +18,7 @@ export function FilmAndMediaSection() {
                     {/* The Hales */}
                     <div className="group relative bg-[#0a0a0a] border border-white/5 overflow-hidden transition-all duration-500 hover:border-primary/50">
                         <div className="aspect-[3/4] bg-[#111] relative">
-                            <div className="absolute inset-0 flex items-center justify-center">
-                                <span className="text-gray-700 font-heading uppercase text-xs tracking-widest">Poster: The Hales</span>
-                            </div>
+                            <Image src="/hales-promo.jpeg" alt="The Hales" fill className="object-cover" />
                             <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-black/50 to-transparent opacity-80 z-10" />
                         </div>
                         <div className="p-8 relative z-20 -mt-20">
@@ -35,9 +33,7 @@ export function FilmAndMediaSection() {
                     {/* The Bodyman */}
                     <div className="group relative bg-[#0a0a0a] border border-white/5 overflow-hidden transition-all duration-500 hover:border-primary/50">
                         <div className="aspect-[3/4] bg-[#111] relative">
-                            <div className="absolute inset-0 flex items-center justify-center">
-                                <span className="text-gray-700 font-heading uppercase text-xs tracking-widest">Poster: The Bodyman</span>
-                            </div>
+                            <Image src="/black-hat.png" alt="The Bodyman placeholder" fill className="object-cover object-top" />
                             <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-black/50 to-transparent opacity-80 z-10" />
                         </div>
                         <div className="p-8 relative z-20 -mt-20">
@@ -52,9 +48,7 @@ export function FilmAndMediaSection() {
                     {/* Modern Day Marilyn */}
                     <div className="group relative bg-[#0a0a0a] border border-white/5 overflow-hidden transition-all duration-500 hover:border-primary/50">
                         <div className="aspect-[3/4] bg-[#111] relative">
-                            <div className="absolute inset-0 flex items-center justify-center">
-                                <span className="text-gray-700 font-heading uppercase text-xs tracking-widest">Poster: Modern Day Marilyn</span>
-                            </div>
+                            <Image src="/modern-day-marilyn.jpeg" alt="Modern Day Marilyn" fill className="object-cover" />
                             <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-black/50 to-transparent opacity-80 z-10" />
                         </div>
                         <div className="p-8 relative z-20 -mt-20">

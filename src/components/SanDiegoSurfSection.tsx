@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export function SanDiegoSurfSection() {
     return (
         <section className="py-24 bg-background relative overflow-hidden" id="surf">
@@ -29,10 +31,10 @@ export function SanDiegoSurfSection() {
                         </div>
                     </div>
 
-                    <div className="order-1 lg:order-2 relative aspect-video w-full max-w-lg mx-auto bg-[#0a0a0a] border border-white/5 flex items-center justify-center overflow-hidden group">
-                        {/* Abstract Sports Visuals */}
-                        <div className="absolute inset-0 bg-gradient-to-tr from-black via-[#0a0a0a] to-blue-900/20 opacity-50 group-hover:opacity-100 transition-opacity duration-700" />
-                        <span className="text-gray-600 font-heading uppercase tracking-widest text-sm relative z-10 group-hover:text-white transition-colors duration-500">Surf Arena Placeholder</span>
+                    <div className="order-1 lg:order-2 relative aspect-video w-full max-w-lg mx-auto bg-[#0a0a0a] border border-white/5 flex items-center justify-center overflow-hidden group rounded-sm">
+                        <Image src="/black-coat.png" alt="San Diego Surf Kate Monroe" fill className="object-cover object-top grayscale group-hover:grayscale-0 transition-all duration-700 hover:scale-105" />
+                        <div className="absolute inset-0 bg-gradient-to-tr from-black/80 via-black/40 to-blue-900/40 opacity-80 group-hover:opacity-40 transition-opacity duration-700 z-10 pointer-events-none" />
+                        <span className="text-white font-heading uppercase tracking-widest text-sm relative z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">San Diego Surf</span>
                     </div>
 
                 </div>
