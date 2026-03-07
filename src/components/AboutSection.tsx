@@ -29,7 +29,7 @@ export function AboutSection() {
                                 src="/kate-about.png"
                                 alt="Kate Monroe Editorial Portrait"
                                 fill
-                                className="object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                                className="object-cover object-top grayscale hover:grayscale-0 transition-all duration-700"
                                 priority
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-black/20 z-10 pointer-events-none" />
