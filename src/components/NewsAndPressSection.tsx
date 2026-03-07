@@ -38,7 +38,7 @@ export function NewsAndPressSection() {
                         {[
                             "Forbes", "FOX", "Glamour", "Dr Phil", "LA Times",
                             "Daily Mail", "Washington Examiner", "NYP", "NEWSMAX", "CBS", "NBC"
-                        ].map(l => [l, l, l]).flat().map((logo, index) => (
+                        ].map((logo, index) => (
                             <div key={index} className="flex-none px-4 grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300">
                                 <h5 className="text-2xl font-black font-heading text-white uppercase tracking-tighter whitespace-nowrap">
                                     {logo}
