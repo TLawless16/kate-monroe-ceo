@@ -19,7 +19,6 @@ export default function Home() {
       <StudioMintSection />
       <SanDiegoSurfSection />
       <NewsAndPressSection />
-      <AsSeenOnSection />
     </main>
   );
 }

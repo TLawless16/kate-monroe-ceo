@@ -32,6 +32,22 @@ export function NewsAndPressSection() {
                     </div>
                 </div>
 
+                {/* As Seen On Marquee */}
+                <div className="w-full flex overflow-hidden mask-image-gradient mb-20 -mx-6 px-6">
+                    <div className="flex w-max animate-marquee space-x-16 px-8 items-center">
+                        {[
+                            "Forbes", "FOX", "Glamour", "Dr Phil", "LA Times",
+                            "Daily Mail", "Washington Examiner", "NYP", "NEWSMAX", "CBS", "NBC"
+                        ].map(l => [l, l, l]).flat().map((logo, index) => (
+                            <div key={index} className="flex-none px-4 grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300">
+                                <h5 className="text-2xl font-black font-heading text-white uppercase tracking-tighter whitespace-nowrap">
+                                    {logo}
+                                </h5>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+
                 {/* Timeline / Evolution */}
                 <div className="border-t border-white/10 pt-16">
                     <h3 className="text-2xl font-heading font-bold text-center text-white tracking-widest uppercase mb-12">The Evolution of Power</h3>
