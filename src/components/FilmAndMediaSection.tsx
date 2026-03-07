@@ -1,6 +1,11 @@
+"use client";
+
 import Image from "next/image";
+import { useState } from "react";
 
 export function FilmAndMediaSection() {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
     return (
         <section className="py-24 bg-black relative overflow-hidden" id="films">
             <div className="max-w-7xl mx-auto px-6">
@@ -44,7 +49,7 @@ export function FilmAndMediaSection() {
                         <div className="p-8 relative z-20">
                             <div className="flex items-start justify-between gap-4 mb-2">
                                 <h3 className="text-2xl font-heading font-bold text-white uppercase tracking-wider">The Bodyman</h3>
-                                <a href="https://flipcreativeinc.com/bodyman" target="_blank" rel="noopener noreferrer" className="w-10 h-10 shrink-0 rounded-full bg-primary/20 flex items-center justify-center text-primary hover:bg-primary hover:text-black transition-colors" title="Watch Trailer">
+                                <a href="#" onClick={(e) => { e.preventDefault(); setIsModalOpen(true); }} className="w-10 h-10 shrink-0 rounded-full bg-primary/20 flex items-center justify-center text-primary hover:bg-primary hover:text-black transition-colors" title="Watch Trailer">
                                     <svg className="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
                                 </a>
                             </div>
@@ -77,6 +82,27 @@ export function FilmAndMediaSection() {
 
                 </div>
             </div>
+
+            {/* Video Modal overlay */}
+            {isModalOpen && (
+                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/95 px-4">
+                    <button
+                        onClick={() => setIsModalOpen(false)}
+                        className="absolute top-8 right-8 text-white/70 hover:text-primary transition-colors focus:outline-none"
+                        aria-label="Close Video"
+                    >
+                        <svg className="w-10 h-10" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
+                    </button>
+                    <div className="relative w-full max-w-5xl aspect-video rounded overflow-hidden shadow-2xl border border-white/10 bg-black">
+                        <iframe
+                            src="https://player.vimeo.com/video/1133646633?autoplay=1&title=0&byline=0&portrait=0"
+                            className="absolute top-0 left-0 w-full h-full"
+                            allow="autoplay; fullscreen; picture-in-picture"
+                            allowFullScreen
+                        ></iframe>
+                    </div>
+                </div>
+            )}
         </section>
     );
 }
