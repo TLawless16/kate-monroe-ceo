@@ -25,7 +25,7 @@ export function SanDiegoSurfSection() {
                         </div>
 
                         <div className="pt-6">
-                            <a href="https://www.sdsurfbasketball.com/" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-3 border border-primary text-primary font-heading uppercase tracking-widest text-sm transition-all hover:bg-primary hover:text-black font-bold">
+                            <a href="https://sdsurfbasketball.com/" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-3 border border-primary text-primary font-heading uppercase tracking-widest text-sm transition-all hover:bg-primary hover:text-black font-bold">
                                 Get Tickets
                             </a>
                         </div>
