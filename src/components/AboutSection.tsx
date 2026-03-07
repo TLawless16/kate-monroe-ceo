@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export function AboutSection() {
     return (
         <section className="py-32 bg-background border-t border-white/5 relative overflow-hidden" id="about">
@@ -22,10 +24,15 @@ export function AboutSection() {
                     </div>
 
                     <div className="order-1 lg:order-2 relative aspect-[3/4] w-full max-w-lg mx-auto">
-                        {/* Image Placeholder */}
                         <div className="absolute inset-0 bg-[#0a0a0a] rounded-sm border border-white/10 flex items-center justify-center overflow-hidden">
-                            <span className="text-gray-600 font-heading uppercase tracking-widest text-sm">Editorial Portrait Placeholder</span>
-                            <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-black/20 z-10" />
+                            <Image
+                                src="/kate-about.png"
+                                alt="Kate Monroe Editorial Portrait"
+                                fill
+                                className="object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                                priority
+                            />
+                            <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-black/20 z-10 pointer-events-none" />
                         </div>
 
                         {/* Decorative Classic Gold Accent */}
