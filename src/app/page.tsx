@@ -6,6 +6,7 @@ import { FilmAndMediaSection } from "@/components/FilmAndMediaSection";
 import { StudioMintSection } from "@/components/StudioMintSection";
 import { SanDiegoSurfSection } from "@/components/SanDiegoSurfSection";
 import { NewsAndPressSection } from "@/components/NewsAndPressSection";
+import { AsSeenOnSection } from "@/components/AsSeenOnSection";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <StudioMintSection />
       <SanDiegoSurfSection />
       <NewsAndPressSection />
+      <AsSeenOnSection />
     </main>
   );
 }
