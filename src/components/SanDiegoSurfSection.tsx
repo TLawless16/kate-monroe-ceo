@@ -32,9 +32,11 @@ export function SanDiegoSurfSection() {
                     </div>
 
                     <div className="order-1 lg:order-2 relative aspect-video w-full max-w-lg mx-auto bg-[#0a0a0a] border border-white/5 flex items-center justify-center overflow-hidden group rounded-sm">
-                        <Image src="/black-coat.png" alt="San Diego Surf Kate Monroe" fill className="object-cover object-top grayscale group-hover:grayscale-0 transition-all duration-700 hover:scale-105" />
+                        <Image src="/san-diego-surf.png" alt="San Diego Surf Background" fill className="object-cover object-center grayscale group-hover:grayscale-0 transition-all duration-700 hover:scale-105 z-0" />
                         <div className="absolute inset-0 bg-gradient-to-tr from-black/80 via-black/40 to-blue-900/40 opacity-80 group-hover:opacity-40 transition-opacity duration-700 z-10 pointer-events-none" />
-                        <span className="text-white font-heading uppercase tracking-widest text-sm relative z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">San Diego Surf</span>
+                        <div className="relative z-20 w-3/4 h-3/4">
+                            <Image src="/san-diego-surf-logo.png" alt="San Diego Surf Logo" fill className="object-contain" />
+                        </div>
                     </div>
 
                 </div>
