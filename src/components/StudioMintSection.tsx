@@ -15,7 +15,7 @@ export function StudioMintSection() {
                             <div className="absolute inset-0 bg-black/20 z-10 pointer-events-none" />
                         </div>
                         <div className="absolute inset-0 flex flex-col items-center justify-center z-20 pointer-events-none">
-                            <h3 className="text-5xl font-heading font-black text-primary tracking-widest uppercase">Mint</h3>
+                            <h3 className="text-5xl font-heading font-black text-primary tracking-widest uppercase"></h3>
                         </div>
                     </div>
 
