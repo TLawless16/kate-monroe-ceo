@@ -19,11 +19,20 @@ export function MonroeMediaSection() {
                 </div>
 
                 <div className="max-w-4xl mx-auto text-xl md:text-2xl text-gray-300 font-sans font-light leading-relaxed space-y-8">
-                    <p>
-                        Monroe Media is the creative studio founded by Kate Monroe to develop bold storytelling across film, television, and next-generation digital formats. Built on the belief that powerful stories should challenge systems and spark conversation, Monroe Media produces projects that blend cinematic production value with fearless themes about power, influence, and culture.
+                    <p className="text-2xl text-white font-medium font-heading tracking-wide uppercase">
+                        Become the Face of Your Company.
                     </p>
                     <p>
-                        From political thrillers and courtroom dramas to new forms of vertical entertainment designed for modern audiences, Monroe Media represents a new generation of creator-led studios where talent, creators, and audiences play a greater role in shaping the future of media.
+                        In today’s media-driven world, the most powerful brands are led by visible, confident leaders. Monroe Media works with founders, executives, and entrepreneurs to help them step into that role—building authentic public brands and developing the confidence and skill to communicate clearly in front of cameras, audiences, and the press.
+                    </p>
+                    <p>
+                        Through brand development, media strategy, and professional media training, Monroe Media helps leaders refine their message, strengthen their public presence, and become powerful voices for the companies and movements they represent.
+                    </p>
+                    <p>
+                        Founded by Kate Monroe, Monroe Media also operates as a creative studio producing bold storytelling across film, television, and next-generation digital formats. From political thrillers and courtroom dramas to cinematic vertical entertainment designed for modern audiences, Monroe Media creates content that challenges systems and sparks conversation.
+                    </p>
+                    <p>
+                        By combining entertainment production with brand development and leadership media training, Monroe Media represents a new generation of creator-led platforms where storytelling, influence, and leadership intersect.
                     </p>
                 </div>
 
