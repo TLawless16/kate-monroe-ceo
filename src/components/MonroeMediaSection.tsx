@@ -13,7 +13,7 @@ export function MonroeMediaSection() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
                     {/* Left side: Graphic */}
-                    <div className="order-2 lg:order-1 relative aspect-[3/4] w-full max-w-md mx-auto">
+                    <div className="order-2 lg:order-1 relative aspect-[2/3] w-full max-w-md mx-auto">
                         <Image
                             src="/media-section-graphic.png"
                             alt="Media Section Graphic"

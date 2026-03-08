@@ -32,13 +32,13 @@ export function KateMonroeShowSection() {
                     </div>
 
                     {/* Right side: Podcast Cover / Latest Episode */}
-                    <div className="flex-1 w-full max-w-md mx-auto md:mx-0">
-                        <div className="relative aspect-square rounded-lg overflow-hidden border border-white/10 shadow-2xl group">
+                    <div className="flex-1 w-full max-w-2xl mx-auto md:mx-0">
+                        <div className="relative aspect-[3/2] bg-zinc-900 rounded-lg overflow-hidden border border-white/10 shadow-2xl group">
                             <Image
                                 src="/kate-monroe-show.png"
                                 alt="The Kate Monroe Show"
                                 fill
-                                className="object-cover transition-transform duration-700 group-hover:scale-105"
+                                className="object-fill transition-transform duration-700 group-hover:scale-105"
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent z-10 transition-opacity duration-500"></div>
                             <div className="absolute bottom-6 left-6 right-6 z-20">
