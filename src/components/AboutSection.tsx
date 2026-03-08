@@ -1,6 +1,10 @@
 import Image from "next/image";
 
-export function AboutSection() {
+interface AboutSectionProps {
+    imageSrc?: string;
+}
+
+export function AboutSection({ imageSrc = "/kate-about.png" }: AboutSectionProps) {
     return (
         <section className="py-32 bg-background border-t border-white/5 relative overflow-hidden" id="about">
             <div className="max-w-7xl mx-auto px-6">
@@ -31,7 +35,7 @@ export function AboutSection() {
                     <div className="order-2 lg:order-2 relative aspect-[3/4] w-full max-w-lg mx-auto">
                         <div className="absolute inset-0 bg-[#0a0a0a] rounded-sm border border-white/10 flex items-center justify-center overflow-hidden">
                             <Image
-                                src="/coat.png"
+                                src={imageSrc}
                                 alt="Kate Monroe Editorial Portrait"
                                 fill
                                 className="object-cover object-top grayscale hover:grayscale-0 transition-all duration-700"

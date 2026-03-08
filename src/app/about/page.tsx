@@ -22,7 +22,7 @@ export default function AboutPage() {
                 </div>
             </div>
 
-            <AboutSection />
+            <AboutSection imageSrc="/coat.png" />
 
             <section className="py-24 bg-black border-t border-white/5">
                 <div className="max-w-4xl mx-auto px-6 text-center space-y-8">

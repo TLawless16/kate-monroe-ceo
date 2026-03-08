@@ -25,10 +25,7 @@ export function CourseFunnelSection() {
                     <div className="group relative bg-[#0a0a0a] border border-white/5 overflow-hidden transition-all duration-500 hover:border-primary/50 flex flex-col">
                         <div className="order-2 md:order-1 aspect-video bg-[#111] relative overflow-hidden">
                             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent z-10" />
-                            {/* Placeholder for Course Image */}
-                            <div className="absolute inset-0 flex items-center justify-center">
-                                <span className="text-white/20 font-heading tracking-widest uppercase text-sm z-0">Awaiting Course UI</span>
-                            </div>
+                            <Image src="/entrepreneur-office.png" alt="Media Authority Masterclass" fill className="object-cover opacity-80 group-hover:opacity-100 transition-all duration-700" />
                             <div className="absolute bottom-6 left-6 z-20">
                                 <span className="px-3 py-1 bg-white text-black text-xs font-heading font-bold uppercase tracking-wider mb-2 inline-block">Flagship Program</span>
                             </div>
@@ -48,10 +45,7 @@ export function CourseFunnelSection() {
                     <div className="group relative bg-[#0a0a0a] border border-white/5 overflow-hidden transition-all duration-500 hover:border-primary/50 flex flex-col">
                         <div className="order-2 md:order-1 aspect-video bg-[#111] relative overflow-hidden">
                             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent z-10" />
-                            {/* Placeholder for Course Image */}
-                            <div className="absolute inset-0 flex items-center justify-center">
-                                <span className="text-white/20 font-heading tracking-widest uppercase text-sm z-0">Awaiting Course UI</span>
-                            </div>
+                            <Image src="/black-hat.png" alt="The Executive Presence" fill className="object-cover opacity-80 group-hover:opacity-100 transition-all duration-700 object-top" />
                             <div className="absolute bottom-6 left-6 z-20">
                                 <span className="px-3 py-1 bg-primary text-black text-xs font-heading font-bold uppercase tracking-wider mb-2 inline-block">Intensive</span>
                             </div>

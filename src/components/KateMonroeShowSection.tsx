@@ -34,11 +34,8 @@ export function KateMonroeShowSection() {
                     {/* Right side: Podcast Cover / Latest Episode */}
                     <div className="flex-1 w-full max-w-md mx-auto md:mx-0">
                         <div className="relative aspect-square rounded-lg overflow-hidden border border-white/10 shadow-2xl group">
-                            <div className="absolute inset-0 bg-[#111] flex items-center justify-center">
-                                <p className="text-white/30 font-heading tracking-widest uppercase text-sm">Awaiting Cover UI</p>
-                            </div>
                             <Image
-                                src="/images/podcast/kate-show-cover.jpg"
+                                src="/kate-monroe-show.png"
                                 alt="The Kate Monroe Show"
                                 fill
                                 className="object-cover transition-transform duration-700 group-hover:scale-105"
