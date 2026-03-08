@@ -1,4 +1,5 @@
 import { Navbar } from "@/components/Navbar";
+import { EmailCaptureSection } from "@/components/EmailCaptureSection";
 
 export const metadata = {
     title: 'The Movement | Kate Monroe',
@@ -31,22 +32,10 @@ export default function MovementPage() {
                     <p className="text-lg text-gray-400 font-sans font-light leading-relaxed max-w-2xl mx-auto">
                         Kate Monroe is building more than a career in entertainment. She is building a new model for media ownership and storytelling. Her mission is clear: disrupt outdated systems, tell bold stories, and create a future where influence and ownership are no longer controlled by a small circle of gatekeepers.
                     </p>
-
-                    {/* Email Capture placeholder as per requirements */}
-                    <div className="pt-8 max-w-md mx-auto">
-                        <form className="flex flex-col gap-4">
-                            <input
-                                type="email"
-                                placeholder="ENTER YOUR EMAIL"
-                                className="px-6 py-4 bg-white/5 border border-white/20 text-white font-sans focus:outline-none focus:border-primary transition-colors text-center uppercase tracking-widest placeholder:text-gray-600"
-                            />
-                            <button type="submit" className="px-6 py-4 bg-primary text-black font-heading font-black uppercase tracking-widest hover:bg-white transition-colors">
-                                Join the Movement
-                            </button>
-                        </form>
-                    </div>
                 </div>
             </section>
+
+            <EmailCaptureSection />
         </main>
     );
 }
