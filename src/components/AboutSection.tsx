@@ -31,7 +31,7 @@ export function AboutSection() {
                     <div className="order-1 lg:order-2 relative aspect-[3/4] w-full max-w-lg mx-auto">
                         <div className="absolute inset-0 bg-[#0a0a0a] rounded-sm border border-white/10 flex items-center justify-center overflow-hidden">
                             <Image
-                                src="/kate-about.png"
+                                src="/coat.png"
                                 alt="Kate Monroe Editorial Portrait"
                                 fill
                                 className="object-cover object-top grayscale hover:grayscale-0 transition-all duration-700"
