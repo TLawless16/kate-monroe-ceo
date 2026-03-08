@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { AboutSection } from "@/components/AboutSection";
+import { ByTheNumbersSection } from "@/components/ByTheNumbersSection";
 import { MonroeMediaSection } from "@/components/MonroeMediaSection";
 import { KateMonroeShowSection } from "@/components/KateMonroeShowSection";
 import { FilmAndMediaSection } from "@/components/FilmAndMediaSection";
@@ -17,6 +18,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <AboutSection />
+      <ByTheNumbersSection />
       <MonroeMediaSection />
       <KateMonroeShowSection />
       <FilmAndMediaSection />
