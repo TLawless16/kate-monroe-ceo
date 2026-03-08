@@ -6,13 +6,13 @@ export function NewsAndPressSection() {
                     <h2 className="text-4xl md:text-5xl font-heading font-black text-white tracking-tighter uppercase">
                         A News <span className="text-primary">Powerhouse</span>
                     </h2>
-                    <p className="text-xl text-gray-400 font-sans font-light italic max-w-2xl mx-auto">
+                    <p className="text-xl text-gray-100 font-sans font-light italic max-w-2xl mx-auto">
                         Not Just Famous. Formidable.
                     </p>
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-16">
-                    <div className="space-y-6 text-lg text-gray-300 font-sans font-light leading-relaxed">
+                    <div className="space-y-6 text-lg text-gray-100 font-sans font-light leading-relaxed">
                         <p>
                             Kate Monroe has become one of the most recognizable independent voices in modern media. With more than 800 news appearances across television, radio, and digital platforms, her commentary has reached audiences in the billions worldwide.
                         </p>
@@ -23,11 +23,11 @@ export function NewsAndPressSection() {
                     <div className="grid grid-cols-2 gap-6 items-start">
                         <div className="border border-white/10 p-6 flex flex-col justify-center bg-[#0a0a0a]">
                             <h3 className="text-5xl font-heading text-primary font-bold mb-2">800+</h3>
-                            <p className="text-sm font-sans text-gray-400 uppercase tracking-wider">Media Appearances</p>
+                            <p className="text-sm font-sans text-gray-100 uppercase tracking-wider">Media Appearances</p>
                         </div>
                         <div className="border border-white/10 p-6 flex flex-col justify-center bg-[#0a0a0a]">
                             <h3 className="text-5xl font-heading text-primary font-bold mb-2">Billions</h3>
-                            <p className="text-sm font-sans text-gray-400 uppercase tracking-wider">Global Impressions</p>
+                            <p className="text-sm font-sans text-gray-100 uppercase tracking-wider">Global Impressions</p>
                         </div>
                     </div>
                 </div>
@@ -84,7 +84,7 @@ export function NewsAndPressSection() {
                     <h3 className="text-2xl font-heading font-bold text-center text-white tracking-widest uppercase mb-12">The Evolution of Power</h3>
                     <div className="flex flex-wrap justify-center gap-4">
                         {["U.S. Marine Corps Veteran", "Entrepreneur & Advocate", "National Media Voice", "Congressional Candidate", "Film & TV Producer", "Sports Ownership", "Hollywood Disruptor"].map((item, i) => (
-                            <span key={i} className="px-6 py-2 border border-white/20 rounded-full text-sm font-sans text-gray-300 hover:border-primary hover:text-primary transition-all cursor-default">
+                            <span key={i} className="px-6 py-2 border border-white/20 rounded-full text-sm font-sans text-gray-100 hover:border-primary hover:text-primary transition-all cursor-default">
                                 {item}
                             </span>
                         ))}

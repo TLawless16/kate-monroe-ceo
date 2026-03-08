@@ -13,7 +13,7 @@ export function FilmAndMediaSection() {
                     <h2 className="text-4xl md:text-5xl font-heading font-black text-white tracking-tighter uppercase mb-4">
                         Film & <span className="text-primary">Media</span>
                     </h2>
-                    <p className="w-full text-base text-gray-400 font-sans font-light leading-normal">
+                    <p className="w-full text-base text-gray-100 font-sans font-light leading-normal">
                         Kate Monroe’s growing film and media slate reflects a portfolio of projects designed to challenge traditional storytelling and production models. Through Monroe Media she is developing cinematic films, high-end vertical series, and cultural projects that merge entertainment with powerful themes about influence, politics, identity, and legacy.
                     </p>
                 </div>

@@ -16,7 +16,7 @@ export default function AboutPage() {
                     <h1 className="text-5xl md:text-7xl font-heading font-black text-white uppercase tracking-tighter mb-4">
                         The <span className="text-primary italic">CEO</span>
                     </h1>
-                    <p className="text-xl text-gray-400 font-sans font-light italic max-w-2xl mx-auto">
+                    <p className="text-xl text-gray-100 font-sans font-light italic max-w-2xl mx-auto">
                         Marine Corps Veteran. Entrepreneur. Media Powerhouse.
                     </p>
                 </div>
@@ -29,7 +29,7 @@ export default function AboutPage() {
                     <h2 className="text-4xl font-heading font-bold text-white uppercase tracking-wider">
                         Signature <span className="text-primary">Quotes</span>
                     </h2>
-                    <div className="space-y-6 text-lg md:text-xl text-gray-300 font-sans font-light italic py-8">
+                    <div className="space-y-6 text-lg md:text-xl text-gray-100 font-sans font-light italic py-8">
                         <p>"Power should never belong to a small circle of gatekeepers."</p>
                         <p>"Stories shape culture. Ownership shapes the future."</p>
                         <p>"Modern fame comes with real responsibility."</p>

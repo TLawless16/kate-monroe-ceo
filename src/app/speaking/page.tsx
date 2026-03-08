@@ -20,11 +20,11 @@ export default function SpeakingPage() {
                         Work with <span className="text-primary italic">Kate</span>
                     </h1>
 
-                    <p className="text-xl md:text-2xl text-gray-300 font-sans font-light leading-relaxed">
+                    <p className="text-xl md:text-2xl text-gray-100 font-sans font-light leading-relaxed">
                         Kate Monroe is available for select speaking engagements, media appearances, partnerships, and creative collaborations. Known for her commanding presence and engaging communication style, Monroe brings insight, energy, and real-world experience to every stage and platform she enters.
                     </p>
 
-                    <p className="text-lg text-gray-400 font-sans font-light leading-relaxed">
+                    <p className="text-lg text-gray-100 font-sans font-light leading-relaxed">
                         From keynote presentations to media interviews and entertainment collaborations, Monroe engages audiences with powerful conversations about leadership, culture, entrepreneurship, and the future of media.
                     </p>
 

@@ -14,7 +14,7 @@ export function Navbar() {
                 </Link>
 
                 {/* Desktop Menu */}
-                <div className="hidden md:flex space-x-8 font-sans text-sm font-medium tracking-wider text-gray-300 uppercase">
+                <div className="hidden md:flex space-x-8 font-sans text-sm font-medium tracking-wider text-gray-100 uppercase">
                     <Link href="/about" className="hover:text-primary transition-colors">About</Link>
                     <Link href="/journey" className="hover:text-primary transition-colors">My Journey</Link>
                     <Link href="/books" className="hover:text-primary transition-colors">Books</Link>
@@ -43,13 +43,13 @@ export function Navbar() {
             {/* Mobile Menu Dropdown */}
             {isOpen && (
                 <div className="md:hidden bg-background border-b border-white/10 px-6 py-4 space-y-4 shadow-xl">
-                    <Link href="/about" className="block text-gray-300 font-sans text-sm font-medium uppercase tracking-wider hover:text-primary" onClick={() => setIsOpen(false)}>About</Link>
-                    <Link href="/journey" className="block text-gray-300 font-sans text-sm font-medium uppercase tracking-wider hover:text-primary" onClick={() => setIsOpen(false)}>My Journey</Link>
-                    <Link href="/books" className="block text-gray-300 font-sans text-sm font-medium uppercase tracking-wider hover:text-primary" onClick={() => setIsOpen(false)}>Books</Link>
-                    <Link href="/#media" className="block text-gray-300 font-sans text-sm font-medium uppercase tracking-wider hover:text-primary" onClick={() => setIsOpen(false)}>Media</Link>
-                    <Link href="/speaking" className="block text-gray-300 font-sans text-sm font-medium uppercase tracking-wider hover:text-primary" onClick={() => setIsOpen(false)}>Speaking</Link>
-                    <Link href="/press" className="block text-gray-300 font-sans text-sm font-medium uppercase tracking-wider hover:text-primary" onClick={() => setIsOpen(false)}>Press</Link>
-                    <Link href="/movement" className="block text-gray-300 font-sans text-sm font-medium uppercase tracking-wider hover:text-primary" onClick={() => setIsOpen(false)}>Movement</Link>
+                    <Link href="/about" className="block text-gray-100 font-sans text-sm font-medium uppercase tracking-wider hover:text-primary" onClick={() => setIsOpen(false)}>About</Link>
+                    <Link href="/journey" className="block text-gray-100 font-sans text-sm font-medium uppercase tracking-wider hover:text-primary" onClick={() => setIsOpen(false)}>My Journey</Link>
+                    <Link href="/books" className="block text-gray-100 font-sans text-sm font-medium uppercase tracking-wider hover:text-primary" onClick={() => setIsOpen(false)}>Books</Link>
+                    <Link href="/#media" className="block text-gray-100 font-sans text-sm font-medium uppercase tracking-wider hover:text-primary" onClick={() => setIsOpen(false)}>Media</Link>
+                    <Link href="/speaking" className="block text-gray-100 font-sans text-sm font-medium uppercase tracking-wider hover:text-primary" onClick={() => setIsOpen(false)}>Speaking</Link>
+                    <Link href="/press" className="block text-gray-100 font-sans text-sm font-medium uppercase tracking-wider hover:text-primary" onClick={() => setIsOpen(false)}>Press</Link>
+                    <Link href="/movement" className="block text-gray-100 font-sans text-sm font-medium uppercase tracking-wider hover:text-primary" onClick={() => setIsOpen(false)}>Movement</Link>
                 </div>
             )}
         </nav>

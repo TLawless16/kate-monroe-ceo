@@ -16,7 +16,7 @@ export default function PressPage() {
                     <h1 className="text-5xl md:text-7xl font-heading font-black text-white uppercase tracking-tighter mb-4">
                         Press & <span className="text-primary italic">Media</span>
                     </h1>
-                    <p className="text-xl text-gray-400 font-sans font-light italic max-w-2xl mx-auto">
+                    <p className="text-xl text-gray-100 font-sans font-light italic max-w-2xl mx-auto">
                         Voice of Authority. Disruptor of Systems.
                     </p>
                 </div>

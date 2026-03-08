@@ -23,13 +23,13 @@ export default function MovementPage() {
                         The <span className="text-primary italic">Movement</span>
                     </h1>
 
-                    <p className="text-2xl md:text-3xl text-gray-300 font-sans font-light leading-relaxed max-w-3xl mx-auto italic">
+                    <p className="text-2xl md:text-3xl text-gray-100 font-sans font-light leading-relaxed max-w-3xl mx-auto italic">
                         "Power should never belong to a small circle of gatekeepers."
                     </p>
 
                     <div className="w-24 h-1 bg-gradient-to-r from-primary to-transparent mx-auto"></div>
 
-                    <p className="text-lg text-gray-400 font-sans font-light leading-relaxed max-w-2xl mx-auto">
+                    <p className="text-lg text-gray-100 font-sans font-light leading-relaxed max-w-2xl mx-auto">
                         Kate Monroe is building more than a career in entertainment. She is building a new model for media ownership and storytelling. Her mission is clear: disrupt outdated systems, tell bold stories, and create a future where influence and ownership are no longer controlled by a small circle of gatekeepers.
                     </p>
                 </div>

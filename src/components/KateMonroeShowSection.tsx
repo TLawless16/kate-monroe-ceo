@@ -15,7 +15,7 @@ export function KateMonroeShowSection() {
                             <h2 className="text-4xl md:text-6xl font-heading font-black text-white tracking-tighter uppercase">
                                 The Kate Monroe <span className="text-primary italic">Show</span>
                             </h2>
-                            <p className="text-xl text-gray-400 font-sans font-light leading-relaxed max-w-xl">
+                            <p className="text-xl text-gray-100 font-sans font-light leading-relaxed max-w-xl">
                                 Dive deep into conversations about power, leadership, and rewriting the rules. Kate sits down with industry titans, disruptors, and cultural architects to explore what it truly takes to build an empire.
                             </p>
                         </div>

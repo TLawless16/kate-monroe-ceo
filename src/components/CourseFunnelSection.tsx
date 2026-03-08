@@ -15,7 +15,7 @@ export function CourseFunnelSection() {
                         Build Your <span className="text-primary italic">Empire</span>
                         <div className="absolute -bottom-4 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-primary to-transparent"></div>
                     </h2>
-                    <p className="text-lg text-gray-400 font-sans font-light max-w-2xl mx-auto pt-6">
+                    <p className="text-lg text-gray-100 font-sans font-light max-w-2xl mx-auto pt-6">
                         Stop asking for permission. Master the media, command the room, and scale your brand with elite training from the CEO who disrupted the system.
                     </p>
                 </div>

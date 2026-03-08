@@ -32,7 +32,7 @@ export function MonroeMediaSection() {
                             <div className="w-24 h-1 bg-gradient-to-r from-primary to-transparent mx-auto lg:mx-0"></div>
                         </div>
 
-                        <div className="text-lg md:text-xl text-gray-300 font-sans font-light leading-normal space-y-8">
+                        <div className="content-safe-text space-y-8">
                             <p className="text-xl text-white font-medium font-heading tracking-wide uppercase">
                                 Become the Face of Your Company.
                             </p>
