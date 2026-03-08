@@ -44,7 +44,7 @@ export function KateMonroeShowSection() {
                             </div>
                             <div className="text-left mt-2">
                                 <span className="px-3 py-1 bg-primary text-black text-xs font-heading font-bold uppercase tracking-wider mb-3 inline-block">Latest Episode</span>
-                                <h3 className="text-white font-heading font-bold text-xl md:text-2xl uppercase tracking-wide leading-tight">Building the Future of Media & Ownership</h3>
+                                <h3 className="media-safe-title leading-tight">Building the Future of Media & Ownership</h3>
                             </div>
                         </div>
                     </div>

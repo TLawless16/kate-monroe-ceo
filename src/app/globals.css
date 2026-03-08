@@ -48,7 +48,12 @@ body {
 
   /* Universal typographic constraints for readability */
   .content-safe-text {
-    @apply text-base md:text-lg text-gray-300 font-sans font-light leading-normal space-y-6;
+    @apply text-base md:text-lg text-gray-300 font-sans font-light leading-normal;
+  }
+
+  /* Universal Media Title constraint */
+  .media-safe-title {
+    @apply text-xl md:text-2xl font-heading font-bold text-white uppercase tracking-wider;
   }
 }
 

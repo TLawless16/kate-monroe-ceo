@@ -14,7 +14,7 @@ export function AboutSection({ imageSrc = "/kate-about.png" }: AboutSectionProps
                         <h2 className="text-4xl md:text-6xl font-heading font-black text-white tracking-tighter uppercase leading-none">
                             About <br /><span className="text-primary">Kate Monroe</span>
                         </h2>
-                        <div className="space-y-6 text-base text-gray-300 font-sans font-light leading-normal">
+                        <div className="content-safe-text space-y-6">
                             <p>
                                 Kate Monroe is a Marine Corps veteran, entrepreneur, producer, and media powerhouse known for challenging the status quo and building bold ventures across multiple industries. As CEO of VetComm, she has helped tens of thousands of veterans secure the benefits they earned through service, representing billions of dollars in lifetime compensation for those who defended the nation.
                             </p>

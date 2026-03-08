@@ -16,7 +16,7 @@ export function SanDiegoSurfSection() {
                         </h2>
                         <div className="w-16 h-1 bg-primary mb-6"></div>
 
-                        <div className="space-y-6 text-base text-gray-300 font-sans font-light leading-normal">
+                        <div className="content-safe-text">
                             <p>
                                 The San Diego Surf are bringing professional basketball back to the Nation’s Finest City with energy, innovation, and a bold new vision for sports ownership. As part of the revitalized USBL, the Surf are not just building a team — they are building a movement.
                             </p>
@@ -42,7 +42,7 @@ export function SanDiegoSurfSection() {
                     </div>
 
                     <div className="order-2 lg:order-2 relative aspect-[4/5] w-full max-w-md mx-auto bg-[#0a0a0a] border border-white/5 flex items-center justify-center overflow-hidden group rounded-sm">
-                        <Image src="/san-diego-surf.png" alt="San Diego Surf Kate Monroe" fill className="object-cover object-top grayscale group-hover:grayscale-0 transition-all duration-700 z-0" />
+                        <Image src="/san-diego-surf.png" alt="San Diego Surf Kate Monroe" fill className="object-cover object-top transition-all duration-700 z-0" />
                         <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-black/20 to-transparent opacity-80 group-hover:opacity-40 transition-opacity duration-700 z-10 pointer-events-none" />
                     </div>
 

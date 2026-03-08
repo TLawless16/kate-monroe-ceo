@@ -28,13 +28,13 @@ export function FilmAndMediaSection() {
                         </div>
                         <div className="order-1 md:order-2 p-8 relative z-20 flex-grow flex flex-col">
                             <div className="flex items-start justify-between gap-4 mb-2">
-                                <h3 className="text-xl md:text-2xl font-heading font-bold text-white uppercase tracking-wider">The Hales</h3>
+                                <h3 className="media-safe-title">The Hales</h3>
                                 <a href="#films" className="w-10 h-10 shrink-0 rounded-full bg-primary/20 flex items-center justify-center text-primary hover:bg-primary hover:text-black transition-colors" title="Watch Trailer">
                                     <svg className="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
                                 </a>
                             </div>
                             <p className="text-sm text-primary font-heading tracking-widest uppercase mb-4">Feature-Quality Vertical Drama</p>
-                            <p className="text-gray-400 text-sm font-sans font-light leading-relaxed line-clamp-4">
+                            <p className="content-safe-text line-clamp-4">
                                 The series follows the unraveling of a powerful marriage after the mysterious death of Sebastian Hale, thrusting his wife Alexandra into the center of a media frenzy and a high-stakes murder investigation.
                             </p>
                         </div>
@@ -48,13 +48,13 @@ export function FilmAndMediaSection() {
                         </div>
                         <div className="order-1 md:order-2 p-8 relative z-20 flex-grow flex flex-col">
                             <div className="flex items-start justify-between gap-4 mb-2">
-                                <h3 className="text-xl md:text-2xl font-heading font-bold text-white uppercase tracking-wider">The Bodyman</h3>
+                                <h3 className="media-safe-title">The Bodyman</h3>
                                 <a href="#" onClick={(e) => { e.preventDefault(); setIsModalOpen(true); }} className="w-10 h-10 shrink-0 rounded-full bg-primary/20 flex items-center justify-center text-primary hover:bg-primary hover:text-black transition-colors" title="Watch Trailer">
                                     <svg className="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
                                 </a>
                             </div>
                             <p className="text-sm text-primary font-heading tracking-widest uppercase mb-4">Political Thriller</p>
-                            <p className="text-gray-400 text-sm font-sans font-light leading-relaxed line-clamp-4">
+                            <p className="content-safe-text line-clamp-4">
                                 A gritty political thriller about power, corruption, and the people willing to fight back when the system is rigged. The race becomes far more dangerous than anyone expected.
                             </p>
                         </div>
@@ -68,13 +68,13 @@ export function FilmAndMediaSection() {
                         </div>
                         <div className="order-1 md:order-2 p-8 relative z-20 flex-grow flex flex-col">
                             <div className="flex items-start justify-between gap-4 mb-2">
-                                <h3 className="text-xl md:text-2xl font-heading font-bold text-white uppercase tracking-wider">Modern Day Marilyn</h3>
+                                <h3 className="media-safe-title">Modern Day Marilyn</h3>
                                 <a href="#films" className="w-10 h-10 shrink-0 rounded-full bg-primary/20 flex items-center justify-center text-primary hover:bg-primary hover:text-black transition-colors" title="Watch Trailer">
                                     <svg className="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
                                 </a>
                             </div>
                             <p className="text-sm text-primary font-heading tracking-widest uppercase mb-4">Cinematic Concept</p>
-                            <p className="text-gray-400 text-sm font-sans font-light leading-relaxed line-clamp-4">
+                            <p className="content-safe-text line-clamp-4">
                                 A bold cinematic concept exploring what happens when the essence of an icon refuses to disappear and instead finds a new vessel to carry its power into a new era.
                             </p>
                         </div>
