@@ -15,7 +15,7 @@ export default function SpeakingPage() {
                     <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-primary/20 rounded-full blur-[150px]"></div>
                 </div>
 
-                <div className="max-w-4xl mx-auto px-6 relative z-10 space-y-8">
+                <div className="max-w-7xl mx-auto px-6 relative z-10 space-y-8">
                     <h1 className="text-5xl md:text-7xl font-heading font-black text-white uppercase tracking-tighter">
                         Work with <span className="text-primary italic">Kate</span>
                     </h1>

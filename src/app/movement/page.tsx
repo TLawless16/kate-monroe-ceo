@@ -18,7 +18,7 @@ export default function MovementPage() {
                     <div className="absolute inset-0 bg-[url('/images/movement-bg.jpg')] bg-cover bg-center bg-no-repeat grayscale opacity-20" />
                 </div>
 
-                <div className="max-w-5xl mx-auto px-6 relative z-20 space-y-12">
+                <div className="max-w-7xl mx-auto px-6 relative z-20 space-y-12">
                     <h1 className="text-6xl md:text-9xl font-heading font-black text-white uppercase tracking-tighter leading-none">
                         The <span className="text-primary italic">Movement</span>
                     </h1>

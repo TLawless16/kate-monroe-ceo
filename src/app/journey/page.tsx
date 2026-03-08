@@ -17,7 +17,7 @@ export default function JourneyPage() {
                     <div className="absolute bottom-1/4 -left-1/4 w-[800px] h-[800px] bg-primary/20 rounded-full blur-[150px]"></div>
                 </div>
 
-                <div className="max-w-4xl mx-auto px-6 relative z-10 text-center space-y-8 mb-24">
+                <div className="max-w-7xl mx-auto px-6 relative z-10 text-center space-y-8 mb-24">
                     <span className="text-primary font-heading font-bold uppercase tracking-widest text-sm">My Journey</span>
                     <h1 className="text-5xl md:text-7xl font-heading font-black text-white uppercase tracking-tighter">
                         The Evolution of <span className="text-primary italic">Power</span>
@@ -36,7 +36,7 @@ export default function JourneyPage() {
                     </div>
                 </div>
 
-                <div className="max-w-5xl mx-auto px-6 relative z-10">
+                <div className="max-w-7xl mx-auto px-6 relative z-10">
                     <div className="space-y-16">
                         {/* Timeline Item 1 */}
                         <div className="border-l-2 border-white/10 pl-8 md:pl-12 relative group">

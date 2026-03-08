@@ -25,7 +25,7 @@ export default function AboutPage() {
             <AboutSection imageSrc="/coat.png" />
 
             <section className="py-24 bg-black border-t border-white/5">
-                <div className="max-w-4xl mx-auto px-6 text-center space-y-8">
+                <div className="max-w-7xl mx-auto px-6 text-center space-y-8">
                     <h2 className="text-4xl font-heading font-bold text-white uppercase tracking-wider">
                         Signature <span className="text-primary">Quotes</span>
                     </h2>
