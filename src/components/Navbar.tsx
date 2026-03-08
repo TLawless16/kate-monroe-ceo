@@ -9,6 +9,7 @@ export function Navbar() {
                 </Link>
                 <div className="hidden md:flex space-x-8 font-sans text-sm font-medium tracking-wider text-gray-300 uppercase">
                     <Link href="/about" className="hover:text-primary transition-colors">About</Link>
+                    <Link href="/journey" className="hover:text-primary transition-colors">My Journey</Link>
                     <Link href="/books" className="hover:text-primary transition-colors">Books</Link>
                     <Link href="/#media" className="hover:text-primary transition-colors">Media</Link>
                     <Link href="/speaking" className="hover:text-primary transition-colors">Speaking</Link>

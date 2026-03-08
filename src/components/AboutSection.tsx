@@ -20,6 +20,11 @@ export function AboutSection() {
                             <p>
                                 Today she is expanding her influence into entertainment, media, and professional sports ownership through Monroe Media, producing projects that challenge traditional power structures and redefine who gets to participate in the success of modern storytelling.
                             </p>
+                            <div className="pt-6">
+                                <a href="/journey" className="inline-block px-10 py-4 bg-transparent border border-white text-white font-heading font-black uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-300">
+                                    My Journey
+                                </a>
+                            </div>
                         </div>
                     </div>
 
