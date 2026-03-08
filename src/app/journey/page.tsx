@@ -23,7 +23,7 @@ export default function JourneyPage() {
                         The Evolution of <span className="text-primary italic">Power</span>
                     </h1>
 
-                    <div className="text-xl md:text-2xl text-gray-300 font-sans font-light leading-relaxed space-y-6 text-left">
+                    <div className="content-safe-text text-left">
                         <p>
                             Power rarely arrives overnight. It is built through resilience, risk, relentless work, and the willingness to step into arenas most people are too afraid to enter. Kate Monroe’s journey—from the United States Marine Corps to entrepreneurship, national media, politics, entertainment, and professional sports—has been defined by an unwavering belief that influence is earned by those willing to take action.
                         </p>
@@ -43,14 +43,14 @@ export default function JourneyPage() {
                             <div className="absolute -left-[5px] top-3 w-[8px] h-[8px] bg-primary rounded-full shadow-[0_0_10px_rgba(255,215,0,0.5)] group-hover:scale-150 transition-transform"></div>
 
                             <div className="flex flex-col md:flex-row gap-8 md:gap-12 md:items-start">
-                                <div className="flex-1">
+                                <div className="flex-1 order-2 md:order-1">
                                     <h3 className="text-2xl md:text-3xl font-heading font-bold text-white uppercase tracking-wider mb-4 md:mb-6">U.S. Marine Corps Veteran</h3>
-                                    <p className="text-lg text-gray-400 font-sans font-light leading-relaxed">
+                                    <p className="content-safe-text">
                                         Kate Monroe’s journey began in the United States Marine Corps, where discipline, resilience, and leadership became the foundation of everything that followed. Military service forged the mindset required to operate under pressure, lead decisively, and stay mission-focused when the stakes are high. The lessons learned in uniform continue to shape how Monroe builds teams, companies, and movements today.
                                     </p>
                                 </div>
-                                <div className="w-full md:w-5/12 shrink-0 rounded-xl overflow-hidden border border-white/10 group-hover:border-primary/50 transition-colors bg-[#0a0a0a]">
-                                    <img src="/marine-corps-portrait.png" alt="U.S. Marine Corps Veteran" className="w-full h-auto" />
+                                <div className="w-full md:w-5/12 shrink-0 rounded-xl overflow-hidden border border-white/10 group-hover:border-primary/50 transition-colors bg-[#0a0a0a] order-1 md:order-2">
+                                    <Image src="/marine-corps-portrait.png" alt="U.S. Marine Corps Veteran" width={800} height={800} className="w-full h-auto object-cover" priority />
                                 </div>
                             </div>
                         </div>
@@ -60,14 +60,14 @@ export default function JourneyPage() {
                             <div className="absolute -left-[5px] top-3 w-[8px] h-[8px] bg-primary rounded-full shadow-[0_0_10px_rgba(255,215,0,0.5)] group-hover:scale-150 transition-transform"></div>
 
                             <div className="flex flex-col md:flex-row gap-8 md:gap-12 md:items-start">
-                                <div className="flex-1">
+                                <div className="flex-1 order-2 md:order-2">
                                     <h3 className="text-2xl md:text-3xl font-heading font-bold text-white uppercase tracking-wider mb-4 md:mb-6">Entrepreneur</h3>
-                                    <p className="text-lg text-gray-400 font-sans font-light leading-relaxed">
+                                    <p className="content-safe-text">
                                         After leaving the Marine Corps, Monroe entered the world of entrepreneurship with the same mission-driven mindset she carried in service. In just two years, she built an eight-figure company that helped veterans secure more than $12 billion in lifetime income through the benefits they earned in service. Entrepreneurship became the proving ground where leadership, innovation, and execution combined to create measurable impact.
                                     </p>
                                 </div>
-                                <div className="w-full md:w-5/12 shrink-0 rounded-xl overflow-hidden border border-white/10 group-hover:border-primary/50 transition-colors bg-[#0a0a0a]">
-                                    <img src="/entrepreneur-office.png" alt="Entrepreneur" className="w-full h-auto" />
+                                <div className="w-full md:w-5/12 shrink-0 rounded-xl overflow-hidden border border-white/10 group-hover:border-primary/50 transition-colors bg-[#0a0a0a] order-1 md:order-1">
+                                    <Image src="/entrepreneur-office.png" alt="Entrepreneur" width={800} height={800} className="w-full h-auto object-cover" />
                                 </div>
                             </div>
                         </div>
@@ -77,14 +77,14 @@ export default function JourneyPage() {
                             <div className="absolute -left-[5px] top-3 w-[8px] h-[8px] bg-primary rounded-full shadow-[0_0_10px_rgba(255,215,0,0.5)] group-hover:scale-150 transition-transform"></div>
 
                             <div className="flex flex-col md:flex-row gap-8 md:gap-12 md:items-start">
-                                <div className="flex-1">
+                                <div className="flex-1 order-2 md:order-1">
                                     <h3 className="text-2xl md:text-3xl font-heading font-bold text-white uppercase tracking-wider mb-4 md:mb-6">National Media Voice</h3>
-                                    <p className="text-lg text-gray-400 font-sans font-light leading-relaxed">
+                                    <p className="content-safe-text">
                                         As her work gained national attention, Monroe became a recognizable voice across major media platforms. With more than 800 appearances across television, radio, and digital outlets, her commentary has reached billions of viewers worldwide. Known for her direct and unapologetic style, Monroe quickly established herself as a powerful voice in the national conversation.
                                     </p>
                                 </div>
-                                <div className="w-full md:w-5/12 shrink-0 rounded-xl overflow-hidden border border-white/10 group-hover:border-primary/50 transition-colors bg-[#0a0a0a]">
-                                    <img src="/news-anchor.png" alt="National Media Voice" className="w-full h-auto" />
+                                <div className="w-full md:w-5/12 shrink-0 rounded-xl overflow-hidden border border-white/10 group-hover:border-primary/50 transition-colors bg-[#0a0a0a] order-1 md:order-2">
+                                    <Image src="/news-anchor.png" alt="National Media Voice" width={800} height={800} className="w-full h-auto object-cover" />
                                 </div>
                             </div>
                         </div>
@@ -94,14 +94,14 @@ export default function JourneyPage() {
                             <div className="absolute -left-[5px] top-3 w-[8px] h-[8px] bg-primary rounded-full shadow-[0_0_10px_rgba(255,215,0,0.5)] group-hover:scale-150 transition-transform"></div>
 
                             <div className="flex flex-col md:flex-row gap-8 md:gap-12 md:items-start">
-                                <div className="flex-1">
+                                <div className="flex-1 order-2 md:order-2">
                                     <h3 className="text-2xl md:text-3xl font-heading font-bold text-white uppercase tracking-wider mb-4 md:mb-6">Congressional Candidate</h3>
-                                    <p className="text-lg text-gray-400 font-sans font-light leading-relaxed">
+                                    <p className="content-safe-text">
                                         Driven by a desire to challenge broken systems, Monroe stepped into the political arena and ran for Congress. Her campaign focused on accountability, leadership, and restoring trust in institutions many Americans feel have failed them. The experience reinforced her belief that real change requires people willing to challenge entrenched power.
                                     </p>
                                 </div>
-                                <div className="w-full md:w-5/12 shrink-0 rounded-xl overflow-hidden border border-white/10 group-hover:border-primary/50 transition-colors bg-[#0a0a0a]">
-                                    <img src="/congressional-candidate.png" alt="Congressional Candidate" className="w-full h-auto" />
+                                <div className="w-full md:w-5/12 shrink-0 rounded-xl overflow-hidden border border-white/10 group-hover:border-primary/50 transition-colors bg-[#0a0a0a] order-1 md:order-1">
+                                    <Image src="/congressional-candidate.png" alt="Congressional Candidate" width={800} height={800} className="w-full h-auto object-cover" />
                                 </div>
                             </div>
                         </div>
@@ -111,14 +111,14 @@ export default function JourneyPage() {
                             <div className="absolute -left-[5px] top-3 w-[8px] h-[8px] bg-primary rounded-full shadow-[0_0_10px_rgba(255,215,0,0.5)] group-hover:scale-150 transition-transform"></div>
 
                             <div className="flex flex-col md:flex-row gap-8 md:gap-12 md:items-start">
-                                <div className="flex-1">
+                                <div className="flex-1 order-2 md:order-1">
                                     <h3 className="text-2xl md:text-3xl font-heading font-bold text-white uppercase tracking-wider mb-4 md:mb-6">Filmmaker & Media Creator</h3>
-                                    <p className="text-lg text-gray-400 font-sans font-light leading-relaxed">
+                                    <p className="content-safe-text">
                                         Through Monroe Media, Kate Monroe expanded into film and entertainment, producing bold storytelling across cinematic films and digital series. Projects like The Bodyman, The Hales, and Modern Day Marilyn blend themes of politics, culture, and influence with compelling storytelling. Her work is designed to challenge traditional narratives and open new doors for creators and audiences.
                                     </p>
                                 </div>
-                                <div className="w-full md:w-5/12 shrink-0 rounded-xl overflow-hidden border border-white/10 group-hover:border-primary/50 transition-colors bg-[#0a0a0a]">
-                                    <img src="/film-set-direction.png" alt="Filmmaker" className="w-full h-auto" />
+                                <div className="w-full md:w-5/12 shrink-0 rounded-xl overflow-hidden border border-white/10 group-hover:border-primary/50 transition-colors bg-[#0a0a0a] order-1 md:order-2">
+                                    <Image src="/film-set-direction.png" alt="Filmmaker" width={800} height={800} className="w-full h-auto object-cover" />
                                 </div>
                             </div>
                         </div>
@@ -128,14 +128,14 @@ export default function JourneyPage() {
                             <div className="absolute -left-[5px] top-3 w-[8px] h-[8px] bg-primary rounded-full shadow-[0_0_10px_rgba(255,215,0,0.5)] group-hover:scale-150 transition-transform"></div>
 
                             <div className="flex flex-col md:flex-row gap-8 md:gap-12 md:items-start">
-                                <div className="flex-1">
+                                <div className="flex-1 order-2 md:order-2">
                                     <h3 className="text-2xl md:text-3xl font-heading font-bold text-white uppercase tracking-wider mb-4 md:mb-6">Professional Sports Owner</h3>
-                                    <p className="text-lg text-gray-400 font-sans font-light leading-relaxed">
+                                    <p className="content-safe-text">
                                         Monroe’s influence now extends into professional sports through the San Diego Surf, part of the revitalized USBL. The team represents a new model for fan participation, community ownership, and modern sports engagement. For Monroe, sports are not just competition—they are another arena where culture, leadership, and innovation intersect.
                                     </p>
                                 </div>
-                                <div className="w-full md:w-5/12 shrink-0 rounded-xl overflow-hidden border border-white/10 group-hover:border-primary/50 transition-colors bg-[#0a0a0a]">
-                                    <img src="/arena-basketball.png" alt="Professional Sports Owner" className="w-full h-auto" />
+                                <div className="w-full md:w-5/12 shrink-0 rounded-xl overflow-hidden border border-white/10 group-hover:border-primary/50 transition-colors bg-[#0a0a0a] order-1 md:order-1">
+                                    <Image src="/arena-basketball.png" alt="Professional Sports Owner" width={800} height={800} className="w-full h-auto object-cover" />
                                 </div>
                             </div>
                         </div>
@@ -145,14 +145,14 @@ export default function JourneyPage() {
                             <div className="absolute -left-[5px] top-3 w-[8px] h-[8px] bg-primary rounded-full shadow-[0_0_10px_rgba(255,215,0,0.5)] group-hover:scale-150 transition-transform"></div>
 
                             <div className="flex flex-col md:flex-row gap-8 md:gap-12 md:items-start">
-                                <div className="flex-1">
+                                <div className="flex-1 order-2 md:order-1">
                                     <h3 className="text-2xl md:text-3xl font-heading font-bold text-white uppercase tracking-wider mb-4 md:mb-6">Hollywood Finance & Film Disruptor</h3>
-                                    <p className="text-lg text-gray-400 font-sans font-light leading-relaxed">
+                                    <p className="content-safe-text">
                                         Through Monroe Media and ventures like Studio Mint, Monroe is challenging the traditional Hollywood financing model. Her vision is to open new pathways for audiences, creators, and talent to participate in the success of the stories they help bring to life. By combining storytelling, technology, and new ownership structures, she is working to reshape how entertainment is funded and who gets to benefit from it.
                                     </p>
                                 </div>
-                                <div className="w-full md:w-5/12 shrink-0 rounded-xl overflow-hidden border border-white/10 group-hover:border-primary/50 transition-colors bg-[#0a0a0a]">
-                                    <img src="/hollywood-night.png" alt="Hollywood Finance" className="w-full h-auto" />
+                                <div className="w-full md:w-5/12 shrink-0 rounded-xl overflow-hidden border border-white/10 group-hover:border-primary/50 transition-colors bg-[#0a0a0a] order-1 md:order-2">
+                                    <Image src="/hollywood-night.png" alt="Hollywood Finance" width={800} height={800} className="w-full h-auto object-cover" />
                                 </div>
                             </div>
                         </div>
