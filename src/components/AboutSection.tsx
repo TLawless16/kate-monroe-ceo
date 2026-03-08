@@ -6,7 +6,7 @@ export function AboutSection() {
             <div className="max-w-7xl mx-auto px-6">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
 
-                    <div className="order-2 lg:order-1 space-y-8">
+                    <div className="order-1 lg:order-1 space-y-8">
                         <h2 className="text-4xl md:text-6xl font-heading font-black text-white tracking-tighter uppercase leading-none">
                             About <br /><span className="text-primary">Kate Monroe</span>
                         </h2>
@@ -28,7 +28,7 @@ export function AboutSection() {
                         </div>
                     </div>
 
-                    <div className="order-1 lg:order-2 relative aspect-[3/4] w-full max-w-lg mx-auto">
+                    <div className="order-2 lg:order-2 relative aspect-[3/4] w-full max-w-lg mx-auto">
                         <div className="absolute inset-0 bg-[#0a0a0a] rounded-sm border border-white/10 flex items-center justify-center overflow-hidden">
                             <Image
                                 src="/coat.png"

@@ -6,7 +6,7 @@ export function StudioMintSection() {
             <div className="max-w-7xl mx-auto px-6">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
-                    <div className="relative aspect-square w-full max-w-md mx-auto lg:mx-0">
+                    <div className="order-2 lg:order-1 relative aspect-square w-full max-w-md mx-auto lg:mx-0">
                         <div className="absolute inset-0 border border-primary/20 rounded-full flex items-center justify-center animate-spin-slow">
                             <div className="w-[90%] h-[90%] border border-white/5 rounded-full"></div>
                         </div>
@@ -19,7 +19,7 @@ export function StudioMintSection() {
                         </div>
                     </div>
 
-                    <div className="space-y-6">
+                    <div className="order-1 lg:order-2 space-y-6">
                         <h2 className="text-4xl md:text-5xl font-heading font-black text-white tracking-tighter uppercase mb-2">
                             Breaking <br /> The Model
                         </h2>

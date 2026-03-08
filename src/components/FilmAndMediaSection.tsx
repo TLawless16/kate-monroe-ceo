@@ -21,12 +21,12 @@ export function FilmAndMediaSection() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
                     {/* The Hales */}
-                    <div className="group relative bg-[#0a0a0a] border border-white/5 overflow-hidden transition-all duration-500 hover:border-primary/50">
-                        <div className="aspect-[3/4] bg-[#111] relative">
+                    <div className="group relative bg-[#0a0a0a] border border-white/5 overflow-hidden transition-all duration-500 hover:border-primary/50 flex flex-col">
+                        <div className="order-2 md:order-1 aspect-[3/4] bg-[#111] relative">
                             <Image src="/hales-promo.jpeg" alt="The Hales" fill className="object-contain" />
                             <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-black/50 to-transparent opacity-80 z-10" />
                         </div>
-                        <div className="p-8 relative z-20">
+                        <div className="order-1 md:order-2 p-8 relative z-20 flex-grow flex flex-col">
                             <div className="flex items-start justify-between gap-4 mb-2">
                                 <h3 className="text-2xl font-heading font-bold text-white uppercase tracking-wider">The Hales</h3>
                                 <a href="#films" className="w-10 h-10 shrink-0 rounded-full bg-primary/20 flex items-center justify-center text-primary hover:bg-primary hover:text-black transition-colors" title="Watch Trailer">
@@ -41,12 +41,12 @@ export function FilmAndMediaSection() {
                     </div>
 
                     {/* The Bodyman */}
-                    <div className="group relative bg-[#0a0a0a] border border-white/5 overflow-hidden transition-all duration-500 hover:border-primary/50">
-                        <div className="aspect-[3/4] bg-[#111] relative">
+                    <div className="group relative bg-[#0a0a0a] border border-white/5 overflow-hidden transition-all duration-500 hover:border-primary/50 flex flex-col">
+                        <div className="order-2 md:order-1 aspect-[3/4] bg-[#111] relative">
                             <Image src="/the-body-man.jpeg" alt="The Bodyman" fill className="object-contain" />
                             <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-black/50 to-transparent opacity-80 z-10" />
                         </div>
-                        <div className="p-8 relative z-20">
+                        <div className="order-1 md:order-2 p-8 relative z-20 flex-grow flex flex-col">
                             <div className="flex items-start justify-between gap-4 mb-2">
                                 <h3 className="text-2xl font-heading font-bold text-white uppercase tracking-wider">The Bodyman</h3>
                                 <a href="#" onClick={(e) => { e.preventDefault(); setIsModalOpen(true); }} className="w-10 h-10 shrink-0 rounded-full bg-primary/20 flex items-center justify-center text-primary hover:bg-primary hover:text-black transition-colors" title="Watch Trailer">
@@ -61,12 +61,12 @@ export function FilmAndMediaSection() {
                     </div>
 
                     {/* Modern Day Marilyn */}
-                    <div className="group relative bg-[#0a0a0a] border border-white/5 overflow-hidden transition-all duration-500 hover:border-primary/50">
-                        <div className="aspect-[3/4] bg-[#111] relative">
+                    <div className="group relative bg-[#0a0a0a] border border-white/5 overflow-hidden transition-all duration-500 hover:border-primary/50 flex flex-col">
+                        <div className="order-2 md:order-1 aspect-[3/4] bg-[#111] relative">
                             <Image src="/modern-day-marilyn.jpeg" alt="Modern Day Marilyn" fill className="object-contain" />
                             <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-black/50 to-transparent opacity-80 z-10" />
                         </div>
-                        <div className="p-8 relative z-20">
+                        <div className="order-1 md:order-2 p-8 relative z-20 flex-grow flex flex-col">
                             <div className="flex items-start justify-between gap-4 mb-2">
                                 <h3 className="text-2xl font-heading font-bold text-white uppercase tracking-wider">Modern Day Marilyn</h3>
                                 <a href="#films" className="w-10 h-10 shrink-0 rounded-full bg-primary/20 flex items-center justify-center text-primary hover:bg-primary hover:text-black transition-colors" title="Watch Trailer">
