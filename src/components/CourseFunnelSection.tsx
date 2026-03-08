@@ -30,7 +30,7 @@ export function CourseFunnelSection() {
                             <div className="mb-4">
                                 <span className="px-3 py-1 bg-white text-black text-xs font-heading font-bold uppercase tracking-wider inline-block">Flagship Program</span>
                             </div>
-                            <h3 className="text-2xl font-heading font-bold text-white uppercase tracking-wider mb-2">Media Authority Masterclass</h3>
+                            <h3 className="text-xl md:text-2xl font-heading font-bold text-white uppercase tracking-wider mb-2">Media Authority Masterclass</h3>
                             <p className="text-gray-400 text-sm font-sans font-light leading-normal mb-8 flex-grow">
                                 A grueling, immersive 6-week blueprint to dominate local and national PR. Learn exactly how Kate booked over 800+ media appearances and built a billion-impression empire from scratch.
                             </p>
@@ -49,7 +49,7 @@ export function CourseFunnelSection() {
                             <div className="mb-4">
                                 <span className="px-3 py-1 bg-primary text-black text-xs font-heading font-bold uppercase tracking-wider inline-block">Intensive</span>
                             </div>
-                            <h3 className="text-2xl font-heading font-bold text-white uppercase tracking-wider mb-2">The Executive Presence</h3>
+                            <h3 className="text-xl md:text-2xl font-heading font-bold text-white uppercase tracking-wider mb-2">The Executive Presence</h3>
                             <p className="text-gray-400 text-sm font-sans font-light leading-normal mb-8 flex-grow">
                                 Stop blending in. This tactical intensive teaches CEOs, founders, and leaders how to walk into any boardroom, stage, or on-camera interview and command absolute authority.
                             </p>

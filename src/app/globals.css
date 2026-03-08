@@ -25,6 +25,35 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* ========================================================================= */
+/* KATE MONROE: GLOBAL DESIGN SETTINGS & MEDIA PROTOCOLS                     */
+/* ========================================================================= */
+/* 
+  PRIME DIRECTIVE COMPLIANCE: 
+  NO TEXT OVERLAYS. Media and text must be strictly separated.
+  Any new component must utilize Flexbox or Grid to prevent overlap.
+*/
+
+@layer components {
+
+  /* Standard 2-column safe separation layout */
+  .layout-media-safe {
+    @apply grid grid-cols-1 lg:grid-cols-2 gap-16 items-center;
+  }
+
+  /* Standard structural container for images to never crop (use aspect ratio) */
+  .media-safe-container {
+    @apply relative w-full overflow-hidden rounded-sm border border-white/5 bg-[#0a0a0a];
+  }
+
+  /* Universal typographic constraints for readability */
+  .content-safe-text {
+    @apply text-base md:text-lg text-gray-300 font-sans font-light leading-normal space-y-6;
+  }
+}
+
+/* ========================================================================= */
+
 h1,
 h2,
 h3,

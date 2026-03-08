@@ -28,7 +28,7 @@ export function FilmAndMediaSection() {
                         </div>
                         <div className="order-1 md:order-2 p-8 relative z-20 flex-grow flex flex-col">
                             <div className="flex items-start justify-between gap-4 mb-2">
-                                <h3 className="text-2xl font-heading font-bold text-white uppercase tracking-wider">The Hales</h3>
+                                <h3 className="text-xl md:text-2xl font-heading font-bold text-white uppercase tracking-wider">The Hales</h3>
                                 <a href="#films" className="w-10 h-10 shrink-0 rounded-full bg-primary/20 flex items-center justify-center text-primary hover:bg-primary hover:text-black transition-colors" title="Watch Trailer">
                                     <svg className="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
                                 </a>
@@ -48,7 +48,7 @@ export function FilmAndMediaSection() {
                         </div>
                         <div className="order-1 md:order-2 p-8 relative z-20 flex-grow flex flex-col">
                             <div className="flex items-start justify-between gap-4 mb-2">
-                                <h3 className="text-2xl font-heading font-bold text-white uppercase tracking-wider">The Bodyman</h3>
+                                <h3 className="text-xl md:text-2xl font-heading font-bold text-white uppercase tracking-wider">The Bodyman</h3>
                                 <a href="#" onClick={(e) => { e.preventDefault(); setIsModalOpen(true); }} className="w-10 h-10 shrink-0 rounded-full bg-primary/20 flex items-center justify-center text-primary hover:bg-primary hover:text-black transition-colors" title="Watch Trailer">
                                     <svg className="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
                                 </a>
@@ -68,7 +68,7 @@ export function FilmAndMediaSection() {
                         </div>
                         <div className="order-1 md:order-2 p-8 relative z-20 flex-grow flex flex-col">
                             <div className="flex items-start justify-between gap-4 mb-2">
-                                <h3 className="text-2xl font-heading font-bold text-white uppercase tracking-wider">Modern Day Marilyn</h3>
+                                <h3 className="text-xl md:text-2xl font-heading font-bold text-white uppercase tracking-wider">Modern Day Marilyn</h3>
                                 <a href="#films" className="w-10 h-10 shrink-0 rounded-full bg-primary/20 flex items-center justify-center text-primary hover:bg-primary hover:text-black transition-colors" title="Watch Trailer">
                                     <svg className="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
                                 </a>
