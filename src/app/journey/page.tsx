@@ -50,7 +50,7 @@ export default function JourneyPage() {
                                     </p>
                                 </div>
                                 <div className="w-full md:w-5/12 shrink-0 rounded-xl overflow-hidden border border-white/10 group-hover:border-primary/50 transition-colors bg-[#0a0a0a] order-2 md:order-2">
-                                    <Image src="/marine-corps-portrait.png" alt="U.S. Marine Corps Veteran" width={800} height={800} className="w-full h-auto object-cover" priority />
+                                    <Image src="/marine-corps-hero.png" alt="U.S. Marine Corps Veteran" width={800} height={800} className="w-full h-auto object-cover" priority />
                                 </div>
                             </div>
                         </div>
