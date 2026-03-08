@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/Navbar";
 import { Button } from "@/components/Button";
+import Image from "next/image";
 
 const books = [
     {
@@ -8,7 +9,7 @@ const books = [
         description: "Wake Up Ready is a call to action for anyone determined to stop waiting for opportunity and start creating it. Drawing from her journey as a Marine Corps veteran, entrepreneur, and national media voice, Kate Monroe shares the mindset, discipline, and preparation required to step into leadership and build momentum in life and business. This book challenges readers to develop the habits, resilience, and readiness needed to seize opportunity when it appears—and to create it when it doesn't.",
         website: "https://www.wakeupreadybook.com/",
         videoUrl: "https://youtu.be/aN9taoFPdwo",
-        image: "/images/books/wake-up-ready-cover.jpg" // placeholder path, user to supply
+        image: "/wake-up-ready.jpeg"
     },
     {
         title: "THE RACE TO SAVE CALIFORNIA",
@@ -16,7 +17,7 @@ const books = [
         description: "The Race to Save California is a bold examination of the policies, leadership failures, and cultural shifts that have pushed one of America's most important states to a breaking point. Written from the perspective of a congressional candidate and national media voice, the book lays out a direct and unapologetic blueprint for restoring accountability, opportunity, and common sense leadership in California. More than a political critique, the book is a call for citizens to re-engage, demand better leadership, and take responsibility for the future of their state.",
         website: "https://www.theracetosaveca.com/",
         videoUrl: null,
-        image: "/images/books/race-to-save-ca-cover.jpg" // placeholder path, user to supply
+        image: "/race-to-save-california.png"
     },
     {
         title: "THE BODYMAN",
@@ -24,7 +25,7 @@ const books = [
         description: "The Bodyman brings readers inside a high-stakes political battle where corruption, organized crime, and power collide. When a fearless outsider runs for office against a powerful politician tied to the cartel, the race quickly becomes something far more dangerous than a campaign. Surrounded by a loyal security and strategy team known as the Bodyman crew, she sends a clear message to those who have long controlled the system: the old rules no longer apply. Blending political intrigue, suspense, and action, The Bodyman explores what happens when someone decides to challenge the most powerful forces operating behind the scenes.",
         website: "https://www.bodymanbook.com/",
         videoUrl: null,
-        image: "/images/books/the-bodyman-cover.jpg" // placeholder path, user to supply
+        image: "/bodyman-book.jpg"
     }
 ];
 
@@ -62,16 +63,13 @@ export default function BooksPage() {
                             <div className="w-full lg:w-1/2 flex flex-col items-center justify-center relative group">
                                 <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 blur-[64px]" />
                                 <div className="w-full max-w-md aspect-[2/3] bg-slate-900 border border-white/10 rounded-xl overflow-hidden shadow-2xl relative">
-                                    {/* Fallback styling for when image is missing/placeholder */}
-                                    <div className="absolute inset-0 flex items-center justify-center flex-col p-8 text-center bg-[#0a0a0a]">
-                                        <span className="text-slate-600 text-sm font-bold uppercase tracking-widest mb-4">Awaiting Cover UI</span>
-                                        <span className="text-white text-2xl font-black uppercase leading-tight font-heading">{book.title}</span>
-                                    </div>
-                                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                                    <img
+                                    <Image
                                         src={book.image}
                                         alt={book.title}
-                                        className="absolute inset-0 w-full h-full object-cover z-10 opacity-0 transition-opacity duration-500 hover:opacity-100" // Will show if actual image is placed and loaded over fallback
+                                        width={600}
+                                        height={900}
+                                        className="w-full h-full object-cover z-10 transition-transform duration-700 group-hover:scale-105 bg-[#0a0a0a]"
+                                        priority={index === 0}
                                     />
                                 </div>
                             </div>
