@@ -29,7 +29,7 @@ export function StudioMintSection() {
                             <p>
                                 Studio Mint is designed to break the century-old Hollywood financing model. For decades studios and gatekeepers controlled who could participate in the success of film and media.
                             </p>
-                            <p className="text-lg text-white font-medium italic">
+                            <p className="text-base text-white font-medium italic">
                                 Studio Mint flips that script.
                             </p>
                             <p>

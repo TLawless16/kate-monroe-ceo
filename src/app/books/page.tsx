@@ -48,7 +48,7 @@ export default function BooksPage() {
                     <h2 className="text-xl md:text-2xl text-primary font-heading font-bold uppercase tracking-widest mb-8">
                         Fearless Perspective <span className="text-white/30 mx-2">•</span> Powerful Storytelling
                     </h2>
-                    <p className="max-w-3xl mx-auto text-lg md:text-xl text-gray-100 font-sans font-light leading-relaxed">
+                    <p className="max-w-3xl mx-auto text-base md:text-base text-gray-100 font-sans font-light leading-relaxed">
                         Challenging broken systems, embracing leadership, and taking ownership of the future.
                     </p>
                 </div>
@@ -83,7 +83,7 @@ export default function BooksPage() {
                                     {book.tagline}
                                 </h4>
                                 <div className="h-px w-24 bg-gradient-to-r from-primary to-transparent" />
-                                <p className="text-gray-100 text-lg leading-relaxed font-light">
+                                <p className="text-gray-100 text-base leading-relaxed font-light">
                                     {book.description}
                                 </p>
 

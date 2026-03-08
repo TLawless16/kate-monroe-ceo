@@ -18,6 +18,10 @@
   --font-heading: var(--font-outfit);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
@@ -48,7 +52,7 @@ body {
 
   /* Universal typographic constraints for readability */
   .content-safe-text {
-    @apply text-base md:text-lg text-gray-100 font-sans font-light leading-normal;
+    @apply text-base text-gray-100 font-sans font-light leading-normal;
   }
 
   /* Universal Media Title constraint */

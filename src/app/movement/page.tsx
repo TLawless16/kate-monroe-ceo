@@ -29,7 +29,7 @@ export default function MovementPage() {
 
                     <div className="w-24 h-1 bg-gradient-to-r from-primary to-transparent mx-auto"></div>
 
-                    <p className="text-lg text-gray-100 font-sans font-light leading-relaxed max-w-2xl mx-auto">
+                    <p className="text-base text-gray-100 font-sans font-light leading-relaxed max-w-2xl mx-auto">
                         Kate Monroe is building more than a career in entertainment. She is building a new model for media ownership and storytelling. Her mission is clear: disrupt outdated systems, tell bold stories, and create a future where influence and ownership are no longer controlled by a small circle of gatekeepers.
                     </p>
                 </div>

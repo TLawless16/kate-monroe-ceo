@@ -29,7 +29,7 @@ export default function AboutPage() {
                     <h2 className="text-4xl font-heading font-bold text-white uppercase tracking-wider">
                         Signature <span className="text-primary">Quotes</span>
                     </h2>
-                    <div className="space-y-6 text-lg md:text-xl text-gray-100 font-sans font-light italic py-8">
+                    <div className="space-y-6 text-base md:text-base text-gray-100 font-sans font-light italic py-8">
                         <p>"Power should never belong to a small circle of gatekeepers."</p>
                         <p>"Stories shape culture. Ownership shapes the future."</p>
                         <p>"Modern fame comes with real responsibility."</p>

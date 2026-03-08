@@ -12,7 +12,7 @@ export function NewsAndPressSection() {
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-16">
-                    <div className="space-y-6 text-lg text-gray-100 font-sans font-light leading-relaxed">
+                    <div className="space-y-6 text-base text-gray-100 font-sans font-light leading-relaxed">
                         <p>
                             Kate Monroe has become one of the most recognizable independent voices in modern media. With more than 800 news appearances across television, radio, and digital platforms, her commentary has reached audiences in the billions worldwide.
                         </p>

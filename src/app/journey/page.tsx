@@ -280,7 +280,7 @@ export default function JourneyPage() {
                             <p className="text-4xl md:text-6xl font-heading font-black text-primary uppercase tracking-tighter mix-blend-lighten drop-shadow-lg">
                                 Influence is the New Currency.
                             </p>
-                            <p className="text-lg md:text-xl font-heading text-white font-medium tracking-wide uppercase mt-8 opacity-70 border-t border-white/10 pt-8 max-w-lg mx-auto">
+                            <p className="text-base md:text-lg font-heading text-white font-medium tracking-wide uppercase mt-8 opacity-70 border-t border-white/10 pt-8 max-w-lg mx-auto">
                                 Influence. Ownership. Legacy.
                             </p>
                         </div>

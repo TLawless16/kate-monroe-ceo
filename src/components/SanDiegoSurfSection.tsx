@@ -23,7 +23,7 @@ export function SanDiegoSurfSection() {
                             <p>
                                 With elite athletes, passionate fans, and new models for community participation, the Surf aim to create a deeper connection between the game and the people who love it.
                             </p>
-                            <p className="text-lg text-white font-medium italic">
+                            <p className="text-base text-white font-medium italic">
                                 In San Diego, basketball is rising on a whole new tide.
                             </p>
                         </div>
