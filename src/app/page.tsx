@@ -6,8 +6,10 @@ import { KateMonroeShowSection } from "@/components/KateMonroeShowSection";
 import { FilmAndMediaSection } from "@/components/FilmAndMediaSection";
 import { StudioMintSection } from "@/components/StudioMintSection";
 import { SanDiegoSurfSection } from "@/components/SanDiegoSurfSection";
+import { CourseFunnelSection } from "@/components/CourseFunnelSection";
 import { NewsAndPressSection } from "@/components/NewsAndPressSection";
 import { AsSeenOnSection } from "@/components/AsSeenOnSection";
+import { EmailCaptureSection } from "@/components/EmailCaptureSection";
 
 export default function Home() {
   return (
@@ -20,7 +22,9 @@ export default function Home() {
       <FilmAndMediaSection />
       <StudioMintSection />
       <SanDiegoSurfSection />
+      <CourseFunnelSection />
       <NewsAndPressSection />
+      <EmailCaptureSection />
     </main>
   );
 }
