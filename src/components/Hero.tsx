@@ -16,7 +16,7 @@ export function Hero() {
                 <h2 className="text-2xl md:text-4xl text-primary font-heading font-bold uppercase tracking-widest mb-8">
                     Modern Fame <span className="text-white/30 mx-2">•</span> Real Power
                 </h2>
-                <p className="max-w-3xl mx-auto text-xl md:text-2xl text-gray-300 font-sans font-light mb-8 leading-relaxed">
+                <p className="max-w-3xl mx-auto text-lg md:text-xl text-gray-300 font-sans font-light mb-8 leading-normal">
                     Building the Future of Media, Ownership, and Culture. <br />
                     <span className="text-white font-medium mt-2 block italic">Not Just Famous. Formidable.</span>
                 </p>

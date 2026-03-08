@@ -25,11 +25,11 @@ export function StudioMintSection() {
                         </h2>
                         <div className="w-16 h-1 bg-primary mb-6"></div>
 
-                        <div className="space-y-6 text-lg text-gray-300 font-sans font-light leading-relaxed">
+                        <div className="space-y-6 text-base text-gray-300 font-sans font-light leading-normal">
                             <p>
                                 Studio Mint is designed to break the century-old Hollywood financing model. For decades studios and gatekeepers controlled who could participate in the success of film and media.
                             </p>
-                            <p className="text-2xl text-white font-medium italic">
+                            <p className="text-lg text-white font-medium italic">
                                 Studio Mint flips that script.
                             </p>
                             <p>

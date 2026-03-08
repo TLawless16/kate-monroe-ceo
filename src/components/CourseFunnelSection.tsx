@@ -15,7 +15,7 @@ export function CourseFunnelSection() {
                         Build Your <span className="text-primary italic">Empire</span>
                         <div className="absolute -bottom-4 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-primary to-transparent"></div>
                     </h2>
-                    <p className="text-xl text-gray-400 font-sans font-light max-w-2xl mx-auto pt-6">
+                    <p className="text-lg text-gray-400 font-sans font-light max-w-2xl mx-auto pt-6">
                         Stop asking for permission. Master the media, command the room, and scale your brand with elite training from the CEO who disrupted the system.
                     </p>
                 </div>
@@ -31,7 +31,7 @@ export function CourseFunnelSection() {
                                 <span className="px-3 py-1 bg-white text-black text-xs font-heading font-bold uppercase tracking-wider inline-block">Flagship Program</span>
                             </div>
                             <h3 className="text-2xl font-heading font-bold text-white uppercase tracking-wider mb-2">Media Authority Masterclass</h3>
-                            <p className="text-gray-400 text-sm font-sans font-light leading-relaxed mb-8 flex-grow">
+                            <p className="text-gray-400 text-sm font-sans font-light leading-normal mb-8 flex-grow">
                                 A grueling, immersive 6-week blueprint to dominate local and national PR. Learn exactly how Kate booked over 800+ media appearances and built a billion-impression empire from scratch.
                             </p>
                             <a href="#" className="w-full py-4 border border-primary text-primary text-center font-heading font-bold uppercase tracking-widest hover:bg-primary hover:text-black transition-colors">
@@ -50,7 +50,7 @@ export function CourseFunnelSection() {
                                 <span className="px-3 py-1 bg-primary text-black text-xs font-heading font-bold uppercase tracking-wider inline-block">Intensive</span>
                             </div>
                             <h3 className="text-2xl font-heading font-bold text-white uppercase tracking-wider mb-2">The Executive Presence</h3>
-                            <p className="text-gray-400 text-sm font-sans font-light leading-relaxed mb-8 flex-grow">
+                            <p className="text-gray-400 text-sm font-sans font-light leading-normal mb-8 flex-grow">
                                 Stop blending in. This tactical intensive teaches CEOs, founders, and leaders how to walk into any boardroom, stage, or on-camera interview and command absolute authority.
                             </p>
                             <a href="#" className="w-full py-4 border border-primary text-primary text-center font-heading font-bold uppercase tracking-widest hover:bg-primary hover:text-black transition-colors">

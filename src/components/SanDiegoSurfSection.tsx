@@ -16,14 +16,14 @@ export function SanDiegoSurfSection() {
                         </h2>
                         <div className="w-16 h-1 bg-primary mb-6"></div>
 
-                        <div className="space-y-6 text-lg text-gray-300 font-sans font-light leading-relaxed">
+                        <div className="space-y-6 text-base text-gray-300 font-sans font-light leading-normal">
                             <p>
                                 The San Diego Surf are bringing professional basketball back to the Nation’s Finest City with energy, innovation, and a bold new vision for sports ownership. As part of the revitalized USBL, the Surf are not just building a team — they are building a movement.
                             </p>
                             <p>
                                 With elite athletes, passionate fans, and new models for community participation, the Surf aim to create a deeper connection between the game and the people who love it.
                             </p>
-                            <p className="text-xl text-white font-medium italic">
+                            <p className="text-lg text-white font-medium italic">
                                 In San Diego, basketball is rising on a whole new tide.
                             </p>
                         </div>
