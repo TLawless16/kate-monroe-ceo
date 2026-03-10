@@ -1,3 +1,5 @@
+import { AppearanceContactForm } from "./AppearanceContactForm";
+
 export function NewsAndPressSection() {
     return (
         <section className="py-24 bg-[#050505] relative overflow-hidden" id="press">
@@ -74,9 +76,7 @@ export function NewsAndPressSection() {
 
                 {/* Contact for Appearances */}
                 <div className="text-center mb-20">
-                    <a href="mailto:Kryzta@MonroeMedia.com?subject=Appearance%20Inquiry%20-%20Kate%20Monroe" className="inline-block px-10 py-4 border border-primary text-primary font-heading font-bold uppercase tracking-widest hover:bg-primary hover:text-black transition-colors">
-                        Contact for Appearances
-                    </a>
+                    <AppearanceContactForm />
                 </div>
 
                 {/* As Seen On Marquee */}
