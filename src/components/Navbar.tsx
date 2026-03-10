@@ -9,7 +9,7 @@ export function Navbar() {
     return (
         <nav className="fixed top-0 w-full z-50 bg-background/90 backdrop-blur-md border-b border-white/10">
             <div className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
-                <Link href="/" className="font-heading text-2xl font-black uppercase tracking-widest text-white">
+                <Link href="/" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="font-heading text-2xl font-black uppercase tracking-widest text-white">
                     Kate Monroe<span className="text-primary">.</span>
                 </Link>
 
