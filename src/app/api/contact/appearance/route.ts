@@ -29,7 +29,7 @@ export async function POST(request: Request) {
             },
             body: JSON.stringify({
                 from: "Kate Monroe Website <onboarding@resend.dev>",
-                to: ["Kryzta@MonroeMedia.com"],
+                to: ["tim@vetcomm.us"],
                 subject: `Appearance Inquiry from ${name}`,
                 html: `
                     <h2>New Appearance Request</h2>
