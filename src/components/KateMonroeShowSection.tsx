@@ -20,7 +20,8 @@ export function KateMonroeShowSection() {
                             </p>
                         </div>
 
-                        <div className="flex flex-wrap gap-4 justify-center md:justify-start">
+                        {/* Buttons hidden per Tim's directive — preserved for later use */}
+                        {/* <div className="flex flex-wrap gap-4 justify-center md:justify-start">
                             <a href="#" className="px-8 py-4 bg-primary text-black font-heading font-bold uppercase tracking-widest hover:bg-white transition-colors flex items-center gap-2">
                                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z" /></svg>
                                 Watch on YouTube
@@ -28,6 +29,9 @@ export function KateMonroeShowSection() {
                             <a href="#" className="px-8 py-4 border border-white/20 text-white font-heading font-bold uppercase tracking-widest hover:border-primary hover:text-primary transition-colors flex items-center gap-2">
                                 Listen on Spotify
                             </a>
+                        </div> */}
+                        <div className="inline-block border border-primary/30 bg-primary/5 px-8 py-4 rounded-sm">
+                            <p className="text-lg font-heading font-bold text-primary tracking-widest uppercase">Coming Soon</p>
                         </div>
                     </div>
 
