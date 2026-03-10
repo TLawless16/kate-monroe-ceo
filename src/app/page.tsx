@@ -2,7 +2,9 @@ import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { AboutSection } from "@/components/AboutSection";
 import { ByTheNumbersSection } from "@/components/ByTheNumbersSection";
-import { MonroeMediaSection } from "@/components/MonroeMediaSection";
+// MonroeMediaSection hidden per Tim's directive — preserved for later use
+// import { MonroeMediaSection } from "@/components/MonroeMediaSection";
+import { MediaComingSoon } from "@/components/MediaComingSoon";
 import { KateMonroeShowSection } from "@/components/KateMonroeShowSection";
 import { FilmAndMediaSection } from "@/components/FilmAndMediaSection";
 import { StudioMintSection } from "@/components/StudioMintSection";
@@ -19,7 +21,7 @@ export default function Home() {
       <Hero />
       <AboutSection />
       <ByTheNumbersSection />
-      <MonroeMediaSection />
+      <MediaComingSoon />
       <KateMonroeShowSection />
       <FilmAndMediaSection />
       <StudioMintSection />
