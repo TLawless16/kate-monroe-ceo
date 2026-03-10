@@ -11,7 +11,7 @@ export async function POST(request: Request) {
             );
         }
 
-        const RESEND_API_KEY = process.env.RESEND_API_KEY;
+        const RESEND_API_KEY = (process.env.RESEND_API_KEY || "").trim();
 
         if (!RESEND_API_KEY) {
             console.error("RESEND_API_KEY not configured");
@@ -46,13 +46,14 @@ export async function POST(request: Request) {
             }),
         });
 
+        const responseData = await res.json();
+        
         if (res.ok) {
             return NextResponse.json({ success: true });
         } else {
-            const error = await res.text();
-            console.error("Resend error:", error);
+            console.error("Resend error:", JSON.stringify(responseData));
             return NextResponse.json(
-                { error: "Failed to send email" },
+                { error: "Failed to send email", detail: responseData },
                 { status: 500 }
             );
         }
