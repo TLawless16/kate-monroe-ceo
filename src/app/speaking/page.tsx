@@ -29,7 +29,7 @@ export default function SpeakingPage() {
                     </p>
 
                     <div className="pt-12">
-                        <a href="mailto:booking@monroemedia.com" className="inline-block px-12 py-5 bg-primary text-black font-heading font-black uppercase tracking-widest text-lg hover:bg-white transition-colors duration-300 shadow-[0_0_40px_rgba(255,215,0,0.2)]">
+                        <a href="mailto:Kryzta@MonroeMedia.com?subject=Speaking%20Booking%20Request%20-%20Kate%20Monroe" className="inline-block px-12 py-5 bg-primary text-black font-heading font-black uppercase tracking-widest text-lg hover:bg-white transition-colors duration-300 shadow-[0_0_40px_rgba(255,215,0,0.2)]">
                             Request Booking
                         </a>
                     </div>
