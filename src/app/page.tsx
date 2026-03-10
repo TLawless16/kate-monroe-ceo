@@ -10,7 +10,8 @@ import { FilmAndMediaSection } from "@/components/FilmAndMediaSection";
 // import { StudioMintSection } from "@/components/StudioMintSection";
 // SanDiegoSurfSection moved to /projects page per Tim's directive
 // import { SanDiegoSurfSection } from "@/components/SanDiegoSurfSection";
-import { CourseFunnelSection } from "@/components/CourseFunnelSection";
+// CourseFunnelSection (Build Your Empire) hidden per Tim's directive — preserved for later
+// import { CourseFunnelSection } from "@/components/CourseFunnelSection";
 import { NewsAndPressSection } from "@/components/NewsAndPressSection";
 import { AsSeenOnSection } from "@/components/AsSeenOnSection";
 import { EmailCaptureSection } from "@/components/EmailCaptureSection";
@@ -27,7 +28,7 @@ export default function Home() {
       <FilmAndMediaSection />
       {/* StudioMintSection moved to /studiomint page */}
       {/* SanDiegoSurfSection moved to /projects page */}
-      <CourseFunnelSection />
+      {/* CourseFunnelSection (Build Your Empire) hidden — not deleted */}
       <NewsAndPressSection />
       <EmailCaptureSection />
     </main>
