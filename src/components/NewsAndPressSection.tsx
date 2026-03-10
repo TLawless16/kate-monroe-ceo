@@ -2,7 +2,7 @@ import { AppearanceContactForm } from "./AppearanceContactForm";
 
 export function NewsAndPressSection() {
     return (
-        <section className="py-24 bg-[#050505] relative overflow-hidden" id="press">
+        <section className="py-20 bg-[#050505] relative overflow-hidden" id="press">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center space-y-4 mb-16">
                     <h2 className="text-4xl md:text-5xl font-heading font-black text-white tracking-tighter uppercase">

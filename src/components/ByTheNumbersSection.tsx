@@ -27,7 +27,7 @@ export function ByTheNumbersSection() {
     ];
 
     return (
-        <section className="py-24 bg-[#080808] border-y border-white/5 relative overflow-hidden">
+        <section className="py-20 bg-[#080808] border-y border-white/5 relative overflow-hidden">
             {/* Background Accent */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/5 rounded-full blur-[120px] pointer-events-none" />
 

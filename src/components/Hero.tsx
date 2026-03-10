@@ -2,7 +2,7 @@ import { Button } from "./Button";
 
 export function Hero() {
     return (
-        <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-background pt-24 pb-16">
+        <section className="relative min-h-[75vh] flex items-center justify-center overflow-hidden bg-background pt-24 pb-12">
             <div className="absolute inset-0 z-0">
                 <div className="absolute inset-0 bg-gradient-to-br from-black via-black/95 to-[#111]" />
                 {/* Subtle gold flare to match Logo 7 */}

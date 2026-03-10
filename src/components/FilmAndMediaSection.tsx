@@ -7,7 +7,7 @@ export function FilmAndMediaSection() {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     return (
-        <section className="py-24 bg-black relative overflow-hidden" id="films">
+        <section className="py-20 bg-black relative overflow-hidden" id="films">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl md:text-5xl font-heading font-black text-white tracking-tighter uppercase mb-4">

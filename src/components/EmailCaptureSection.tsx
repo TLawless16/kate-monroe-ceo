@@ -78,7 +78,7 @@ export function EmailCaptureSection() {
     };
 
     return (
-        <section className="py-24 bg-primary relative overflow-hidden" id="empire">
+        <section className="py-20 bg-primary relative overflow-hidden" id="empire">
             {/* Abstract Background Elements */}
             <div className="absolute inset-0 z-0 opacity-10 pointer-events-none">
                 <div className="absolute -top-40 -right-40 w-96 h-96 bg-black rounded-full blur-[100px]"></div>

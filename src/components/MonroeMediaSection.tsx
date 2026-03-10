@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function MonroeMediaSection() {
     return (
-        <section className="py-32 bg-[#050505] relative overflow-hidden" id="media">
+        <section className="py-20 bg-[#050505] relative overflow-hidden" id="media">
 
             <div className="absolute inset-0 z-0">
                 <Image src="/blazer.png" alt="Monroe Media Kate Monroe" fill className="object-cover object-top opacity-20 grayscale" />

@@ -6,7 +6,7 @@ interface AboutSectionProps {
 
 export function AboutSection({ imageSrc = "/kate-about.png" }: AboutSectionProps) {
     return (
-        <section className="py-32 bg-background border-t border-white/5 relative overflow-hidden" id="about">
+        <section className="py-20 bg-background border-t border-white/5 relative overflow-hidden" id="about">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
 
