@@ -20,11 +20,11 @@ export function StudioMintVideoSection() {
                             </p>
                         </div>
 
-                        <div className="pt-6">
+                        {/* <div className="pt-6">
                             <a href="mailto:katieallyson1@gmail.com?subject=Studio%20Mint%20Inquiry" className="inline-block px-8 py-3 border border-primary text-primary font-heading uppercase tracking-widest text-sm transition-all hover:bg-primary hover:text-black font-bold">
                                 Get Involved
                             </a>
-                        </div>
+                        </div> */}
                     </div>
 
                     {/* Right side: YouTube Video */}
