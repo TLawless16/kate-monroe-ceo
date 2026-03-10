@@ -1,5 +1,6 @@
 import { getAllPosts } from '@/lib/blog';
 import Link from 'next/link';
+import { Navbar } from '@/components/Navbar';
 
 export const metadata = {
     title: 'Blog | Kate Monroe',
@@ -11,6 +12,7 @@ export default function BlogIndex() {
 
     return (
         <main className="min-h-screen bg-background pt-32 pb-24 text-white">
+            <Navbar />
             <div className="max-w-4xl mx-auto px-6">
                 <h1 className="text-4xl md:text-5xl font-heading font-black uppercase tracking-wider mb-4">
                     The <span className="text-primary">Blog</span>

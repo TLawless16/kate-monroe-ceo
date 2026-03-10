@@ -1,8 +1,8 @@
 import { getPostBySlug, getPostSlugs } from '@/lib/blog';
 import { marked } from 'marked';
 import { notFound } from 'next/navigation';
-import Head from 'next/head';
 import Link from 'next/link';
+import { Navbar } from '@/components/Navbar';
 
 // Generate static parameters for all blog posts at build time
 export async function generateStaticParams() {
@@ -69,6 +69,7 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
 
     return (
         <article className="min-h-screen bg-background pt-32 pb-24 text-white">
+            <Navbar />
             {/* Inject JSON-LD Structure Data for Google */}
             <script
                 type="application/ld+json"
