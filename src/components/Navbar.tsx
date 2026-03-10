@@ -22,6 +22,7 @@ export function Navbar() {
                     <Link href="/speaking" className="hover:text-primary transition-colors">Speaking</Link>
                     <Link href="/press" className="hover:text-primary transition-colors">Press</Link>
                     <Link href="/movement" className="hover:text-primary transition-colors">Movement</Link>
+                    <Link href="/blog" className="hover:text-primary transition-colors">Blog</Link>
                 </div>
 
                 {/* Mobile Menu Button */}
@@ -50,6 +51,7 @@ export function Navbar() {
                     <Link href="/speaking" className="block text-gray-100 font-sans text-sm font-medium uppercase tracking-wider hover:text-primary" onClick={() => setIsOpen(false)}>Speaking</Link>
                     <Link href="/press" className="block text-gray-100 font-sans text-sm font-medium uppercase tracking-wider hover:text-primary" onClick={() => setIsOpen(false)}>Press</Link>
                     <Link href="/movement" className="block text-gray-100 font-sans text-sm font-medium uppercase tracking-wider hover:text-primary" onClick={() => setIsOpen(false)}>Movement</Link>
+                    <Link href="/blog" className="block text-gray-100 font-sans text-sm font-medium uppercase tracking-wider hover:text-primary" onClick={() => setIsOpen(false)}>Blog</Link>
                 </div>
             )}
         </nav>
