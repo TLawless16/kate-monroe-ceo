@@ -63,6 +63,22 @@ export function NewsAndPressSection() {
                     </div>
                 </div>
 
+                {/* Kate's YouTube Channel */}
+                <div className="text-center mb-20">
+                    <h3 className="text-2xl font-heading font-bold text-white tracking-widest uppercase mb-6">Kate Monroe on YouTube</h3>
+                    <a href="https://www.youtube.com/@Kate.Monroe" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 px-10 py-4 bg-red-600 text-white font-heading font-bold uppercase tracking-widest hover:bg-red-500 transition-colors">
+                        <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                        Subscribe to Kate Monroe
+                    </a>
+                </div>
+
+                {/* Contact for Appearances */}
+                <div className="text-center mb-20">
+                    <a href="mailto:Kryzta@MonroeMedia.com?subject=Appearance%20Inquiry%20-%20Kate%20Monroe" className="inline-block px-10 py-4 border border-primary text-primary font-heading font-bold uppercase tracking-widest hover:bg-primary hover:text-black transition-colors">
+                        Contact for Appearances
+                    </a>
+                </div>
+
                 {/* As Seen On Marquee */}
                 <div className="w-full flex overflow-hidden mask-image-gradient mb-20 -mx-6 px-6">
                     <div className="flex w-max animate-marquee space-x-16 px-8 items-center">
@@ -79,17 +95,7 @@ export function NewsAndPressSection() {
                     </div>
                 </div>
 
-                {/* Timeline / Evolution */}
-                <div className="border-t border-white/10 pt-16">
-                    <h3 className="text-2xl font-heading font-bold text-center text-white tracking-widest uppercase mb-12">The Evolution of Power</h3>
-                    <div className="flex flex-wrap justify-center gap-4">
-                        {["U.S. Marine Corps Veteran", "Entrepreneur & Advocate", "National Media Voice", "Congressional Candidate", "Film & TV Producer", "Sports Ownership", "Hollywood Disruptor"].map((item, i) => (
-                            <span key={i} className="px-6 py-2 border border-white/20 rounded-full text-sm font-sans text-gray-100 hover:border-primary hover:text-primary transition-all cursor-default">
-                                {item}
-                            </span>
-                        ))}
-                    </div>
-                </div>
+                {/* Evolution of Power section removed per Tim's directive — preserved in git history */}
             </div>
         </section>
     );

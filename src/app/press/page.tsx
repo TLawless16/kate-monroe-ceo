@@ -25,19 +25,7 @@ export default function PressPage() {
             {/* We can re-use the powerful NewsAndPressSection component from the homepage here for now */}
             <NewsAndPressSection />
 
-            {/* Placeholder for future individual press clippings / video gallery */}
-            <section className="py-24 bg-black border-t border-white/5">
-                <div className="max-w-7xl mx-auto px-6 text-center">
-                    <h2 className="text-2xl font-heading font-bold text-white uppercase tracking-widest mb-12">Featured Appearances</h2>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                        {[1, 2, 3].map((item) => (
-                            <div key={item} className="aspect-video bg-[#111] border border-white/10 flex items-center justify-center">
-                                <span className="text-gray-600 font-heading uppercase text-sm tracking-widest">Awaiting Video UI</span>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
+            {/* Featured Appearances removed per Tim's directive */}
         </main>
     );
 }
