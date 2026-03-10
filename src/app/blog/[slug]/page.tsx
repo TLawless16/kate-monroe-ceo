@@ -4,6 +4,8 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { Navbar } from '@/components/Navbar';
 
+type Params = { slug: string };
+
 // Generate static parameters for all blog posts at build time
 export async function generateStaticParams() {
     const slugs = getPostSlugs();
@@ -13,9 +15,10 @@ export async function generateStaticParams() {
 }
 
 // Generate dynamic metadata for each blog post for SEO
-export async function generateMetadata({ params }: { params: { slug: string } }) {
+export async function generateMetadata({ params }: { params: Promise<Params> }) {
+    const { slug } = await params;
     try {
-        const post = getPostBySlug(params.slug);
+        const post = getPostBySlug(slug);
         if (!post) return { title: 'Post Not Found' };
 
         return {
@@ -34,7 +37,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
                 description: post.description,
             },
             alternates: {
-                canonical: `https://katemonroeceo.com/blog/${params.slug}`,
+                canonical: `https://katemonroeceo.com/blog/${slug}`,
             }
         };
     } catch (e) {
@@ -42,10 +45,11 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     }
 }
 
-export default async function BlogPostPage({ params }: { params: { slug: string } }) {
+export default async function BlogPostPage({ params }: { params: Promise<Params> }) {
+    const { slug } = await params;
     let post;
     try {
-        post = getPostBySlug(params.slug);
+        post = getPostBySlug(slug);
     } catch (e) {
         notFound();
     }
@@ -64,7 +68,7 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
             name: post.author,
         },
         datePublished: post.date,
-        url: `https://katemonroeceo.com/blog/${params.slug}`
+        url: `https://katemonroeceo.com/blog/${slug}`
     };
 
     return (
@@ -109,8 +113,8 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
                     <div className="flex flex-col md:flex-row items-center justify-between gap-6">
                         <div className="flex items-center gap-4">
                             <span className="font-heading uppercase tracking-wider text-sm text-gray-400">Share:</span>
-                            <a href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title)}&url=https://katemonroeceo.com/blog/${params.slug}`} target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary transition-colors">Twitter/X</a>
-                            <a href={`https://www.linkedin.com/shareArticle?mini=true&url=https://katemonroeceo.com/blog/${params.slug}&title=${encodeURIComponent(post.title)}`} target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary transition-colors">LinkedIn</a>
+                            <a href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title)}&url=https://katemonroeceo.com/blog/${slug}`} target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary transition-colors">Twitter/X</a>
+                            <a href={`https://www.linkedin.com/shareArticle?mini=true&url=https://katemonroeceo.com/blog/${slug}&title=${encodeURIComponent(post.title)}`} target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary transition-colors">LinkedIn</a>
                         </div>
 
                         <div className="flex gap-2 text-sm font-semibold text-primary">
@@ -124,7 +128,7 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
                     <div className="mt-12 bg-white/5 p-8 rounded-sm">
                         <h3 className="font-heading text-xl font-bold uppercase mb-2">About {post.author}</h3>
                         <p className="font-sans text-gray-300 text-sm leading-relaxed">
-                            Kate Monroe is an unstoppable force in business and leadership. From the streets of San Diego to the boardrooms of America's fastest-growing companies, she teaches movement, momentum, and massive action.
+                            Kate Monroe is an unstoppable force in business and leadership. From the streets of San Diego to the boardrooms of America&apos;s fastest-growing companies, she teaches movement, momentum, and massive action.
                         </p>
                     </div>
                 </footer>
