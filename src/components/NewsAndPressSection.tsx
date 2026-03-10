@@ -40,7 +40,7 @@ export function NewsAndPressSection() {
                         <iframe
                             src="https://www.youtube.com/embed/h70o7QeyxLI?start=45"
                             title="Yahoo Finance Appearance"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allow="autoplay; encrypted-media; picture-in-picture" sandbox="allow-scripts allow-same-origin allow-popups"
                             allowFullScreen
                             className="absolute inset-0 w-full h-full"
                         ></iframe>
@@ -49,7 +49,7 @@ export function NewsAndPressSection() {
                         <iframe
                             src="https://www.youtube.com/embed/66FrNuS5N4M?start=271"
                             title="Fox News Appearance"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allow="autoplay; encrypted-media; picture-in-picture" sandbox="allow-scripts allow-same-origin allow-popups"
                             allowFullScreen
                             className="absolute inset-0 w-full h-full"
                         ></iframe>
@@ -58,7 +58,7 @@ export function NewsAndPressSection() {
                         <iframe
                             src="https://www.youtube.com/embed/DMQ4Xksyamg"
                             title="Dr. Phil Appearance"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allow="autoplay; encrypted-media; picture-in-picture" sandbox="allow-scripts allow-same-origin allow-popups"
                             allowFullScreen
                             className="absolute inset-0 w-full h-full"
                         ></iframe>

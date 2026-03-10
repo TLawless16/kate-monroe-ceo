@@ -32,7 +32,7 @@ export function StudioMintVideoSection() {
                         <iframe
                             src="https://www.youtube.com/embed/JU94__NjSgo"
                             title="Studio Mint Vision"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allow="autoplay; encrypted-media; picture-in-picture" sandbox="allow-scripts allow-same-origin allow-popups"
                             allowFullScreen
                             className="absolute inset-0 w-full h-full"
                         ></iframe>
