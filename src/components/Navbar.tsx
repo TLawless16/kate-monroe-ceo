@@ -19,6 +19,7 @@ export function Navbar() {
                     <Link href="/journey" className="hover:text-primary transition-colors">My Journey</Link>
                     <Link href="/books" className="hover:text-primary transition-colors">Books</Link>
                     <Link href="/#media" className="hover:text-primary transition-colors">Media</Link>
+                    <Link href="/studiomint" className="hover:text-primary transition-colors">Studio Mint</Link>
                     <Link href="/speaking" className="hover:text-primary transition-colors">Speaking</Link>
                     <Link href="/press" className="hover:text-primary transition-colors">Press</Link>
                     <Link href="/movement" className="hover:text-primary transition-colors">Movement</Link>
@@ -48,6 +49,7 @@ export function Navbar() {
                     <Link href="/journey" className="block text-gray-100 font-sans text-sm font-medium uppercase tracking-wider hover:text-primary" onClick={() => setIsOpen(false)}>My Journey</Link>
                     <Link href="/books" className="block text-gray-100 font-sans text-sm font-medium uppercase tracking-wider hover:text-primary" onClick={() => setIsOpen(false)}>Books</Link>
                     <Link href="/#media" className="block text-gray-100 font-sans text-sm font-medium uppercase tracking-wider hover:text-primary" onClick={() => setIsOpen(false)}>Media</Link>
+                    <Link href="/studiomint" className="block text-gray-100 font-sans text-sm font-medium uppercase tracking-wider hover:text-primary" onClick={() => setIsOpen(false)}>Studio Mint</Link>
                     <Link href="/speaking" className="block text-gray-100 font-sans text-sm font-medium uppercase tracking-wider hover:text-primary" onClick={() => setIsOpen(false)}>Speaking</Link>
                     <Link href="/press" className="block text-gray-100 font-sans text-sm font-medium uppercase tracking-wider hover:text-primary" onClick={() => setIsOpen(false)}>Press</Link>
                     <Link href="/movement" className="block text-gray-100 font-sans text-sm font-medium uppercase tracking-wider hover:text-primary" onClick={() => setIsOpen(false)}>Movement</Link>

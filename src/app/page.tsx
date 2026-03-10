@@ -6,7 +6,8 @@ import { MonroeMediaSection } from "@/components/MonroeMediaSection";
 // KateMonroeShowSection hidden per Tim's directive — preserved for later use
 // import { KateMonroeShowSection } from "@/components/KateMonroeShowSection";
 import { FilmAndMediaSection } from "@/components/FilmAndMediaSection";
-import { StudioMintSection } from "@/components/StudioMintSection";
+// StudioMintSection moved to /studiomint page per Tim's directive
+// import { StudioMintSection } from "@/components/StudioMintSection";
 import { SanDiegoSurfSection } from "@/components/SanDiegoSurfSection";
 import { CourseFunnelSection } from "@/components/CourseFunnelSection";
 import { NewsAndPressSection } from "@/components/NewsAndPressSection";
@@ -23,7 +24,7 @@ export default function Home() {
       <MonroeMediaSection />
       {/* KateMonroeShowSection removed from homepage — hidden, not deleted */}
       <FilmAndMediaSection />
-      <StudioMintSection />
+      {/* StudioMintSection moved to /studiomint page */}
       <SanDiegoSurfSection />
       <CourseFunnelSection />
       <NewsAndPressSection />
