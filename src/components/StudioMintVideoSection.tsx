@@ -13,13 +13,10 @@ export function StudioMintVideoSection() {
 
                         <div className="space-y-6 text-base text-gray-100 font-sans font-light leading-normal">
                             <p>
-                                Studio Mint isn't just a concept — it's a movement. For the first time, the people who believe in a story can participate in its success alongside the creators who bring it to life.
+                                In this exclusive interview, Kate Monroe discusses the creation of The Hales and the bigger vision behind Studio Mint. Monroe explains how new ownership models and tokenization could transform the entertainment industry, giving audiences, creators, and talent a chance to participate in the success of the stories they help bring to life.
                             </p>
                             <p>
-                                This is what happens when you combine Hollywood-quality storytelling with community-driven participation and next-generation technology.
-                            </p>
-                            <p className="text-base text-white font-medium italic">
-                                Watch the vision come to life.
+                                The conversation offers a glimpse into how Monroe Media is working to challenge the traditional Hollywood financing system and open the door to a new era of entertainment.
                             </p>
                         </div>
 
