@@ -14,7 +14,8 @@ import { FilmAndMediaSection } from "@/components/FilmAndMediaSection";
 // import { CourseFunnelSection } from "@/components/CourseFunnelSection";
 import { NewsAndPressSection } from "@/components/NewsAndPressSection";
 import { AsSeenOnSection } from "@/components/AsSeenOnSection";
-import { EmailCaptureSection } from "@/components/EmailCaptureSection";
+// EmailCaptureSection (Build Your Empire) hidden until Calendly integration ready
+// import { EmailCaptureSection } from "@/components/EmailCaptureSection";
 
 export default function Home() {
   return (
@@ -30,7 +31,7 @@ export default function Home() {
       {/* SanDiegoSurfSection moved to /projects page */}
       {/* CourseFunnelSection (Build Your Empire) hidden — not deleted */}
       <NewsAndPressSection />
-      <EmailCaptureSection />
+      {/* EmailCaptureSection hidden until Calendly integration ready */}
     </main>
   );
 }
