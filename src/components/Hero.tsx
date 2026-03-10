@@ -20,10 +20,11 @@ export function Hero() {
                     Building the Future of Media, Ownership, and Culture. <br />
                     <span className="text-white font-medium mt-2 block italic">Not Just Famous. Formidable.</span>
                 </p>
-                <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mt-12">
+                {/* Buttons hidden per Tim's directive — preserved for later */}
+                {/* <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mt-12">
                     <Button variant="primary">Enter The Empire</Button>
                     <Button variant="outline">View Media</Button>
-                </div>
+                </div> */}
             </div>
         </section>
     );
