@@ -41,7 +41,7 @@ export function StudioMintSection() {
                         </div>
 
                         <div className="pt-6">
-                            <a href="mailto:Kryzta@MonroeMedia.com?subject=Studio%20Mint%20Inquiry" className="inline-block px-8 py-3 border border-white/20 text-white font-heading uppercase tracking-widest text-sm transition-all hover:border-primary hover:text-primary">
+                            <a href="mailto:katieallyson1@gmail.com?subject=Studio%20Mint%20Inquiry" className="inline-block px-8 py-3 border border-white/20 text-white font-heading uppercase tracking-widest text-sm transition-all hover:border-primary hover:text-primary">
                                 Learn About Mint
                             </a>
                         </div>

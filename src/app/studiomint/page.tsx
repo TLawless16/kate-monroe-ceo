@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/Navbar";
 import { StudioMintSection } from "@/components/StudioMintSection";
+import { StudioMintVideoSection } from "@/components/StudioMintVideoSection";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -24,6 +25,7 @@ export default function StudioMintPage() {
             <Navbar />
             <div className="pt-24">
                 <StudioMintSection />
+                <StudioMintVideoSection />
             </div>
         </main>
     );
