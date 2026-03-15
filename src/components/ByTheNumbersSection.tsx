@@ -47,7 +47,7 @@ export function ByTheNumbersSection() {
                     {stats.map((stat, index) => (
                         <div key={index} className="bg-[#0f0f0f] border border-white/10 p-8 rounded-xl hover:border-primary/50 transition-colors duration-500 group relative overflow-hidden">
                             <div className="absolute -left-[2px] top-0 bottom-0 w-[2px] bg-primary scale-y-0 group-hover:scale-y-100 origin-top transition-transform duration-500" />
-                            <h3 className="text-4xl md:text-5xl font-heading font-black text-white uppercase tracking-tighter mb-4 pb-4 border-b border-white/10 group-hover:border-primary/30 transition-colors">
+                            <h3 className="text-3xl md:text-4xl font-heading font-bold text-white uppercase tracking-tighter mb-4 pb-4 border-b border-white/10 group-hover:border-primary/30 transition-colors">
                                 {stat.value}
                             </h3>
                             <p className="content-safe-text text-sm md:text-base">
