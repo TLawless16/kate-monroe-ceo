@@ -117,7 +117,7 @@ export function FilmAndMediaSection() {
                     </button>
                     <div className="relative w-full max-w-5xl aspect-video rounded overflow-hidden shadow-2xl border border-white/10 bg-black">
                         <iframe
-                            src="https://www.youtube.com/embed/YtkZR0NFd1g?autoplay=1"
+                            src="https://www.youtube.com/embed/JU94__NjSgo?autoplay=1"
                             className="absolute top-0 left-0 w-full h-full"
                             allow="autoplay; encrypted-media; picture-in-picture"
                             allowFullScreen
